@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2CBAC041BBFABB90C0A66097 /* Pods_safemobile_module.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E96905324796DB1EE71C62 /* Pods_safemobile_module.framework */; };
-		5E822031BFCEB5B77EBA27BE /* Pods_safemobile_module_safemobile_moduleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E28ABE8414D05B3386BBE6 /* Pods_safemobile_module_safemobile_moduleTests.framework */; };
+		18221F7B483EA74C7805B279 /* Pods_safemobile_module_safemobile_moduleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C8D53A0F97A850D60A456F1 /* Pods_safemobile_module_safemobile_moduleTests.framework */; };
 		A816474A277EE83F008C0B35 /* safemobile_module.docc in Sources */ = {isa = PBXBuildFile; fileRef = A8164749277EE83F008C0B35 /* safemobile_module.docc */; };
 		A8164750277EE83F008C0B35 /* safemobile_module.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8164745277EE83F008C0B35 /* safemobile_module.framework */; };
 		A8164755277EE83F008C0B35 /* safemobile_moduleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8164754277EE83F008C0B35 /* safemobile_moduleTests.m */; };
 		A8164756277EE83F008C0B35 /* safemobile_module.h in Headers */ = {isa = PBXBuildFile; fileRef = A8164748277EE83F008C0B35 /* safemobile_module.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8D72E842782A433001756EE /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = A8D72E832782A433001756EE /* main.jsbundle */; };
+		A8D72E862782A4A9001756EE /* safemobile_module.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D72E852782A4A9001756EE /* safemobile_module.m */; };
+		A8D72F872782B208001756EE /* assets in Resources */ = {isa = PBXBuildFile; fileRef = A8D72F862782B208001756EE /* assets */; };
+		DCF4558162D2A39F53C4AEF1 /* Pods_safemobile_module.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A03AA489F8E7D671966C07 /* Pods_safemobile_module.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +29,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		15E28ABE8414D05B3386BBE6 /* Pods_safemobile_module_safemobile_moduleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_safemobile_module_safemobile_moduleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C8D53A0F97A850D60A456F1 /* Pods_safemobile_module_safemobile_moduleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_safemobile_module_safemobile_moduleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D67FF8B66CE15CD5F6AD7F7 /* Pods-safemobile-module-safemobile-moduleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-safemobile-module-safemobile-moduleTests.release.xcconfig"; path = "Target Support Files/Pods-safemobile-module-safemobile-moduleTests/Pods-safemobile-module-safemobile-moduleTests.release.xcconfig"; sourceTree = "<group>"; };
-		48E96905324796DB1EE71C62 /* Pods_safemobile_module.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_safemobile_module.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CE95CB586D28465976BCA8C /* Pods-safemobile-module.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-safemobile-module.release.xcconfig"; path = "Target Support Files/Pods-safemobile-module/Pods-safemobile-module.release.xcconfig"; sourceTree = "<group>"; };
+		70A03AA489F8E7D671966C07 /* Pods_safemobile_module.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_safemobile_module.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2760CDA30858E6EA46647C9 /* Pods-safemobile-module-safemobile-moduleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-safemobile-module-safemobile-moduleTests.debug.xcconfig"; path = "Target Support Files/Pods-safemobile-module-safemobile-moduleTests/Pods-safemobile-module-safemobile-moduleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A8164745277EE83F008C0B35 /* safemobile_module.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = safemobile_module.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8164748277EE83F008C0B35 /* safemobile_module.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = safemobile_module.h; sourceTree = "<group>"; };
 		A8164749277EE83F008C0B35 /* safemobile_module.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = safemobile_module.docc; sourceTree = "<group>"; };
 		A816474F277EE83F008C0B35 /* safemobile-moduleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "safemobile-moduleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8164754277EE83F008C0B35 /* safemobile_moduleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = safemobile_moduleTests.m; sourceTree = "<group>"; };
+		A8D72E832782A433001756EE /* main.jsbundle */ = {isa = PBXFileReference; lastKnownFileType = file; path = main.jsbundle; sourceTree = SOURCE_ROOT; };
+		A8D72E852782A4A9001756EE /* safemobile_module.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = safemobile_module.m; sourceTree = "<group>"; };
+		A8D72F862782B208001756EE /* assets */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = assets; sourceTree = SOURCE_ROOT; };
 		DD852EBE94BD514AA2052BA3 /* Pods-safemobile-module.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-safemobile-module.debug.xcconfig"; path = "Target Support Files/Pods-safemobile-module/Pods-safemobile-module.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -44,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CBAC041BBFABB90C0A66097 /* Pods_safemobile_module.framework in Frameworks */,
+				DCF4558162D2A39F53C4AEF1 /* Pods_safemobile_module.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +59,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8164750277EE83F008C0B35 /* safemobile_module.framework in Frameworks */,
-				5E822031BFCEB5B77EBA27BE /* Pods_safemobile_module_safemobile_moduleTests.framework in Frameworks */,
+				18221F7B483EA74C7805B279 /* Pods_safemobile_module_safemobile_moduleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +89,10 @@
 		A8164747277EE83F008C0B35 /* safemobile-module */ = {
 			isa = PBXGroup;
 			children = (
+				A8D72F862782B208001756EE /* assets */,
+				A8D72E832782A433001756EE /* main.jsbundle */,
 				A8164748277EE83F008C0B35 /* safemobile_module.h */,
+				A8D72E852782A4A9001756EE /* safemobile_module.m */,
 				A8164749277EE83F008C0B35 /* safemobile_module.docc */,
 			);
 			path = "safemobile-module";
@@ -100,8 +109,8 @@
 		D17AF491E5CBAC6E79BAB63B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				48E96905324796DB1EE71C62 /* Pods_safemobile_module.framework */,
-				15E28ABE8414D05B3386BBE6 /* Pods_safemobile_module_safemobile_moduleTests.framework */,
+				70A03AA489F8E7D671966C07 /* Pods_safemobile_module.framework */,
+				0C8D53A0F97A850D60A456F1 /* Pods_safemobile_module_safemobile_moduleTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -114,7 +123,6 @@
 				A2760CDA30858E6EA46647C9 /* Pods-safemobile-module-safemobile-moduleTests.debug.xcconfig */,
 				1D67FF8B66CE15CD5F6AD7F7 /* Pods-safemobile-module-safemobile-moduleTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -159,6 +167,7 @@
 				A816474B277EE83F008C0B35 /* Sources */,
 				A816474C277EE83F008C0B35 /* Frameworks */,
 				A816474D277EE83F008C0B35 /* Resources */,
+				5090F092881FC8BFF26AD4FB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -211,6 +220,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8D72E842782A433001756EE /* main.jsbundle in Resources */,
+				A8D72F872782B208001756EE /* assets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +235,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		5090F092881FC8BFF26AD4FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-safemobile-module-safemobile-moduleTests/Pods-safemobile-module-safemobile-moduleTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-safemobile-module-safemobile-moduleTests/Pods-safemobile-module-safemobile-moduleTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-safemobile-module-safemobile-moduleTests/Pods-safemobile-module-safemobile-moduleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9497A2A1B5D3E1CBD7FB4AB8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -275,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8D72E862782A4A9001756EE /* safemobile_module.m in Sources */,
 				A816474A277EE83F008C0B35 /* safemobile_module.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,6 +365,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -398,6 +428,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -420,6 +451,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DD852EBE94BD514AA2052BA3 /* Pods-safemobile-module.debug.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -430,6 +462,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -439,6 +472,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cyradar.safemobile-module";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,6 +482,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4CE95CB586D28465976BCA8C /* Pods-safemobile-module.release.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -458,6 +493,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -467,6 +503,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cyradar.safemobile-module";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
