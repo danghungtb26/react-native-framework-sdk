@@ -1,0 +1,6 @@
+framework module safemobile_module {
+  umbrella header "safemobile_module.h"
+
+  export *
+  module * { export * }
+}
