@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.cyradar.safemobile_rn_examble_android">
+
+    <application
+        android:name=".Main2Application"
+        android:icon="@mipmap/ic_launcher"
+        tools:replace="android:name"
+
+        android:allowBackup="false">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.SafemobileRNExambleAndroid.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.rnproject.MainActivity" android:exported="true" android:label="@string/app_name"
+            android:theme="@style/Theme.SafemobileRNExambleAndroid.NoActionBar"/>
+    </application>
+
+</manifest>
