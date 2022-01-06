@@ -39,7 +39,7 @@
 		A8164749277EE83F008C0B35 /* safemobile_module.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = safemobile_module.docc; sourceTree = "<group>"; };
 		A816474F277EE83F008C0B35 /* safemobile-moduleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "safemobile-moduleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8164754277EE83F008C0B35 /* safemobile_moduleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = safemobile_moduleTests.m; sourceTree = "<group>"; };
-		A8D72E832782A433001756EE /* main.jsbundle */ = {isa = PBXFileReference; lastKnownFileType = file; path = main.jsbundle; sourceTree = SOURCE_ROOT; };
+		A8D72E832782A433001756EE /* main.jsbundle */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.jsbundle; sourceTree = SOURCE_ROOT; };
 		A8D72E852782A4A9001756EE /* safemobile_module.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = safemobile_module.m; sourceTree = "<group>"; };
 		A8D72F862782B208001756EE /* assets */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = assets; sourceTree = SOURCE_ROOT; };
 		DD852EBE94BD514AA2052BA3 /* Pods-safemobile-module.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-safemobile-module.debug.xcconfig"; path = "Target Support Files/Pods-safemobile-module/Pods-safemobile-module.debug.xcconfig"; sourceTree = "<group>"; };
@@ -459,6 +459,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = x86_64;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -490,6 +491,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = x86_64;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";

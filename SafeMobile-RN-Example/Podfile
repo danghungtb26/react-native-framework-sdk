@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'SafeMobile-RN-Example' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for SafeMobile-RN-Example
+
+  target 'SafeMobile-RN-ExampleTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'SafeMobile-RN-ExampleUITests' do
+    # Pods for testing
+  end
+
+end

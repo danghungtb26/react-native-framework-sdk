@@ -54,9 +54,11 @@ buck-out/
 */fastlane/screenshots
 
 # Bundle artifact
-*.jsbundle
+# *.jsbundle
 
 # CocoaPods
 /ios/Pods/
 
 /safemobile-module/Pods/
+/Pods/
+/TestFramework/Pods/

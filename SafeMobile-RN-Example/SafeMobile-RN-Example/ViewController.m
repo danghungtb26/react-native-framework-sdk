@@ -6,7 +6,7 @@
 //
 
 #import "ViewController.h"
-#import "safemobile_module/safemobile_module.h"
+#import "TestFramework/TestFramework.h"
 
 @interface ViewController ()
 

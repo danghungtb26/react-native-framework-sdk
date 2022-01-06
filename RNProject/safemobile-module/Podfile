@@ -17,19 +17,19 @@ target 'safemobile-module' do
   use_frameworks!
 
   # use_flipper!()
-
-  $static_framework = ['hermes-engine']
-  
-  pre_install do |installer|
-    Pod::Installer::Xcode::TargetValidator.send(:define_method, :verify_no_static_framework_transitive_dependencies) {}
-    installer.pod_targets.each do |pod|
-        if $static_framework.include?(pod.name)
-          def pod.build_type;
-            Pod::BuildType.static_library
-          end
-        end
-      end
-  end
+#
+#  $static_framework = ['hermes-engine']
+#
+#  pre_install do |installer|
+#    Pod::Installer::Xcode::TargetValidator.send(:define_method, :verify_no_static_framework_transitive_dependencies) {}
+#    installer.pod_targets.each do |pod|
+#        if $static_framework.include?(pod.name)
+#          def pod.build_type;
+#            Pod::BuildType.static_library
+#          end
+#        end
+#      end
+#  end
 
   post_install do |installer|
     react_native_post_install(installer)
@@ -38,11 +38,14 @@ target 'safemobile-module' do
 
     # end
     installer.pods_project.targets.each do |target|
-      if target.name == 'RCT-Folly'
-          target.build_configurations.each do |config|
-              config.build_settings['HEADER_SEARCH_PATHS'] = "$(inherited) ${PODS_ROOT}/fmt/include"
+        target.build_configurations.each do |config|
+            config.build_settings['ONLY_ACTIVE_ARCH'] = 'YES'
           end
-      end
+#      if target.name == 'RCT-Folly'
+#          target.build_configurations.each do |config|
+#              config.build_settings['HEADER_SEARCH_PATHS'] = "$(inherited) ${PODS_ROOT}/fmt/include"
+#          end
+#      end
 
       # find_and_replace("Pods/Headers/Private/RCT-Folly/folly/synchronization/DistributedMutex-inl.h",
       # "atomic_notify_one(state)", "folly::atomic_notify_one(state)")
