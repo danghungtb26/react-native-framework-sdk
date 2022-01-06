@@ -11,7 +11,7 @@ import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
 import com.cyradar.safemobile_rn_examble_android.databinding.FragmentFirstBinding;
-import com.rnproject.MainActivity;
+import com.rnproject2.MainActivity;
 
 public class FirstFragment extends Fragment {
 

@@ -3,6 +3,8 @@ plugins {
 }
 
 android {
+
+    ndkVersion rootProject.ext.ndkVersion
     compileSdk 31
 
     defaultConfig {
@@ -28,6 +30,8 @@ android {
     buildFeatures {
         viewBinding true
     }
+
+
 }
 
 dependencies {
@@ -39,20 +43,21 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
     implementation 'androidx.navigation:navigation-fragment:2.3.5'
     implementation 'androidx.navigation:navigation-ui:2.3.5'
-    implementation files('../../RNProject/android/app/build/outputs/aar/app-release.aar') {
-//        transitive = true
-    }
-//    implementation(name: 'app-release', ext: 'aar') {
+//    implementation files('../../RNProject2/android/app/libs/fat-arr-final.aar')
+    implementation(name: 'safemobile-final', ext: 'aar') {
 //        transitive=true
-//    }
+    }
+//    def hermesPath = "../../RNProject2/node_modules/hermes-engine/android/";
+//    debugImplementation files(hermesPath + "hermes-debug.aar")
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
 }
 
 repositories {
     mavenLocal()
     flatDir {
-        dirs '../../RNProject/android/app/build/outputs/aar/'
+        dirs '../../RNProject2/android/app/library/'
     }
 }
