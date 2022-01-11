@@ -1,5 +1,27 @@
 rootProject.name = 'RNProject2'
-apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+//apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
 include ':app'
 include ':hermes-release'
 include ':hermes-debug'
+
+include ':reanimated'
+project(':reanimated').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-reanimated/android')
+
+include ':gesture'
+project(':gesture').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-gesture-handler/android')
+
+include ':screen'
+project(':screen').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-screens/android')
+
+include ':fastimage'
+project(':fastimage').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-fast-image/android')
+
+
+include ':safearea'
+project(':safearea').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-safe-area-context/android')
+
+include ':svg'
+project(':svg').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-svg/android')
+
+include ':mmkv'
+project(':mmkv').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-mmkv/android')

@@ -4,12 +4,15 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.facebook.react.PackageList;
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactInstanceManager;
+import com.facebook.react.ReactPackage;
 import com.facebook.react.ReactRootView;
 import com.facebook.react.common.LifecycleState;
 import com.facebook.react.modules.core.DefaultHardwareBackBtnHandler;
-import com.facebook.react.shell.MainReactPackage;
+
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements DefaultHardwareBackBtnHandler {
   private ReactRootView mReactRootView;
@@ -19,11 +22,14 @@ public class MainActivity extends AppCompatActivity implements DefaultHardwareBa
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     mReactRootView = new ReactRootView(this);
+
+    List<ReactPackage> packages = new PackageList(getApplication()).getPackages();
     mReactInstanceManager = ReactInstanceManager.builder()
             .setApplication(getApplication())
+            .setJSIModulesPackage(new RNJSI())
             .setBundleAssetName("index.android.bundle")
             .setJSMainModulePath("index")
-            .addPackage(new MainReactPackage())
+            .addPackages(packages)
             .setUseDeveloperSupport(false)
             .setInitialLifecycleState(LifecycleState.BEFORE_CREATE)
             .build();
