@@ -76,6 +76,10 @@
 		A86C2128278E7BE200CF5B5C /* Mmkv.mm in Sources */ = {isa = PBXBuildFile; fileRef = A86C2124278E7BE200CF5B5C /* Mmkv.mm */; };
 		A86C2129278E7BE200CF5B5C /* MmkvHostObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = A86C2125278E7BE200CF5B5C /* MmkvHostObject.mm */; };
 		A86C212A278E7BE200CF5B5C /* JSIUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = A86C2127278E7BE200CF5B5C /* JSIUtils.mm */; };
+		A86C22A0278EC30700CF5B5C /* MMKVCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A86C229E278EC30700CF5B5C /* MMKVCore.framework */; platformFilter = ios; };
+		A86C22A1278EC30700CF5B5C /* MMKV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A86C229F278EC30700CF5B5C /* MMKV.framework */; platformFilter = ios; };
+		A86C22A2278EC31C00CF5B5C /* MMKV.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A86C229F278EC30700CF5B5C /* MMKV.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A86C22A3278EC31C00CF5B5C /* MMKVCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A86C229E278EC30700CF5B5C /* MMKVCore.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A8D72E502782A38F001756EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D72E4F2782A38F001756EE /* AppDelegate.m */; };
 		A8D72E532782A38F001756EE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D72E522782A38F001756EE /* SceneDelegate.m */; };
 		A8D72E562782A38F001756EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D72E552782A38F001756EE /* ViewController.m */; };
@@ -190,6 +194,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				A86C22A2278EC31C00CF5B5C /* MMKV.framework in Embed Frameworks */,
+				A86C22A3278EC31C00CF5B5C /* MMKVCore.framework in Embed Frameworks */,
 				A8FD68F5278D91FA00D4B726 /* TestFramework.framework in Embed Frameworks */,
 				A8FD68C3278D8E0800D4B726 /* CoreModules.framework in Embed Frameworks */,
 				A8FD68C4278D8E0800D4B726 /* cxxreact.framework in Embed Frameworks */,
@@ -382,6 +388,8 @@
 		A86C2125278E7BE200CF5B5C /* MmkvHostObject.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MmkvHostObject.mm; sourceTree = "<group>"; };
 		A86C2126278E7BE200CF5B5C /* MmkvHostObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MmkvHostObject.h; sourceTree = "<group>"; };
 		A86C2127278E7BE200CF5B5C /* JSIUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JSIUtils.mm; sourceTree = "<group>"; };
+		A86C229E278EC30700CF5B5C /* MMKVCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MMKVCore.framework; path = universal/MMKVCore.framework; sourceTree = "<group>"; };
+		A86C229F278EC30700CF5B5C /* MMKV.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MMKV.framework; path = universal/MMKV.framework; sourceTree = "<group>"; };
 		A86F825086DEDDD6CE114649 /* Pods-SafeMobile-RN-Example-SafeMobile-RN-ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeMobile-RN-Example-SafeMobile-RN-ExampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-SafeMobile-RN-Example-SafeMobile-RN-ExampleUITests/Pods-SafeMobile-RN-Example-SafeMobile-RN-ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A8D72E4B2782A38F001756EE /* SafeMobile-RN-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SafeMobile-RN-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8D72E4E2782A38F001756EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -464,6 +472,7 @@
 				A8FD68B0278D8DF900D4B726 /* RCTAnimation.framework in Frameworks */,
 				A8FD68A9278D8DF900D4B726 /* RCTSettings.framework in Frameworks */,
 				A8FD68AC278D8DF900D4B726 /* react_native_safe_area_context.framework in Frameworks */,
+				A86C22A1278EC30700CF5B5C /* MMKV.framework in Frameworks */,
 				FCDD592436031D017E3AC459 /* Pods_SafeMobile_RN_Example.framework in Frameworks */,
 				A8FD68A0278D8DF900D4B726 /* react_native_pager_view.framework in Frameworks */,
 				A8FD68AE278D8DF900D4B726 /* RCTTypeSafety.framework in Frameworks */,
@@ -473,6 +482,7 @@
 				A8FD68AA278D8DF900D4B726 /* RCTImage.framework in Frameworks */,
 				A8FD68A5278D8DF900D4B726 /* RNFastImage.framework in Frameworks */,
 				A8FD68BC278D8DF900D4B726 /* RNGestureHandler.framework in Frameworks */,
+				A86C22A0278EC30700CF5B5C /* MMKVCore.framework in Frameworks */,
 				A8FD68B5278D8DF900D4B726 /* RCTLinking.framework in Frameworks */,
 				A8FD68B9278D8DF900D4B726 /* RNDeviceInfo.framework in Frameworks */,
 				A8FD68B2278D8DF900D4B726 /* jsireact.framework in Frameworks */,
@@ -737,6 +747,8 @@
 		A8D72E422782A38F001756EE = {
 			isa = PBXGroup;
 			children = (
+				A86C229F278EC30700CF5B5C /* MMKV.framework */,
+				A86C229E278EC30700CF5B5C /* MMKVCore.framework */,
 				A86C2121278E7BE200CF5B5C /* rnmmkv */,
 				A86C2052278E7B7900CF5B5C /* svg */,
 				A8FD68F3278D91F400D4B726 /* TestFramework.framework */,
