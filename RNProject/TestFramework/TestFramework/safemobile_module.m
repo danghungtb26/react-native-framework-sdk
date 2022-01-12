@@ -24,19 +24,21 @@
 @implementation safemobile_module_framework
 
 -(UIView *) getView {
-//    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
-//    view.backgroundColor = [UIColor redColor];
-//    return view;
-    
-    NSURL * url = [[NSBundle bundleForClass:[safemobile_module_framework class]] URLForResource:@"main" withExtension:@"jsbundle"];
-    
-    bridge = [[RCTBridge alloc] initWithBundleURL:url moduleProvider:nil launchOptions:nil];
-    
+    RCTBridge *bridge = [[RCTBridge alloc] initWithDelegate:self launchOptions:nil];
     RCTRootView *rootView = [[RCTRootView alloc] initWithBridge:bridge
                                                      moduleName:@"RNProject"
                                               initialProperties:nil];
     
     return rootView;
+}
+
+- (NSURL *)sourceURLForBridge:(RCTBridge *)bridge
+{
+    //#if DEBUG
+    //  return [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index" fallbackResource:nil];
+    //#else
+    return [[NSBundle bundleForClass:[safemobile_module_framework class]] URLForResource:@"main" withExtension:@"jsbundle"];
+    //#endif
 }
 
 

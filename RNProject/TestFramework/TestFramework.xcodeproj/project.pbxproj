@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		89803004576DEC615592CFA9 /* Pods_TestFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC98D619FF1BF7B52BEB07F8 /* Pods_TestFramework.framework */; };
-		A87E08E32785A5F300C982D0 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = A87E08E12785A5F300C982D0 /* main.jsbundle */; };
-		A87E08F02785A74500C982D0 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = A87E08EF2785A74500C982D0 /* assets */; };
 		A8B9C6BD2785859600B758EF /* TestFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = A8B9C6BC2785859600B758EF /* TestFramework.docc */; };
 		A8B9C6C32785859700B758EF /* TestFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B9C6B82785859600B758EF /* TestFramework.framework */; };
 		A8B9C6C82785859700B758EF /* TestFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B9C6C72785859700B758EF /* TestFrameworkTests.m */; };
 		A8B9C6C92785859700B758EF /* TestFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = A8B9C6BB2785859600B758EF /* TestFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A8B9C8392785917100B758EF /* safemobile_module.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B9C8382785917100B758EF /* safemobile_module.m */; };
+		A8FD68EB278D8ECC00D4B726 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = A8FD68E9278D8ECC00D4B726 /* assets */; };
+		A8FD68EC278D8ECC00D4B726 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = A8FD68EA278D8ECC00D4B726 /* main.jsbundle */; };
+		A8FD68EE278D90D900D4B726 /* SafeMobileController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FD68ED278D90D900D4B726 /* SafeMobileController.m */; };
+		A8FD68F0278D90ED00D4B726 /* SafeMobileController.h in Headers */ = {isa = PBXBuildFile; fileRef = A8FD68EF278D90ED00D4B726 /* SafeMobileController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE0024EF2D57E810531AFA9C /* Pods_TestFramework_TestFrameworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08DAEC7F6AF3AFEAD5E21664 /* Pods_TestFramework_TestFrameworkTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,14 +34,16 @@
 		08DAEC7F6AF3AFEAD5E21664 /* Pods_TestFramework_TestFrameworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestFramework_TestFrameworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1743327D7D1F1BC2CA6D0246 /* Pods-TestFramework-TestFrameworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFramework-TestFrameworkTests.release.xcconfig"; path = "Target Support Files/Pods-TestFramework-TestFrameworkTests/Pods-TestFramework-TestFrameworkTests.release.xcconfig"; sourceTree = "<group>"; };
 		52A437B9000333AD10025EAF /* Pods-TestFramework-TestFrameworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFramework-TestFrameworkTests.debug.xcconfig"; path = "Target Support Files/Pods-TestFramework-TestFrameworkTests/Pods-TestFramework-TestFrameworkTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A87E08E12785A5F300C982D0 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		A87E08EF2785A74500C982D0 /* assets */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = assets; sourceTree = SOURCE_ROOT; };
 		A8B9C6B82785859600B758EF /* TestFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8B9C6BB2785859600B758EF /* TestFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestFramework.h; sourceTree = "<group>"; };
 		A8B9C6BC2785859600B758EF /* TestFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = TestFramework.docc; sourceTree = "<group>"; };
 		A8B9C6C22785859700B758EF /* TestFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8B9C6C72785859700B758EF /* TestFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestFrameworkTests.m; sourceTree = "<group>"; };
 		A8B9C8382785917100B758EF /* safemobile_module.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = safemobile_module.m; sourceTree = "<group>"; };
+		A8FD68E9278D8ECC00D4B726 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		A8FD68EA278D8ECC00D4B726 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		A8FD68ED278D90D900D4B726 /* SafeMobileController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafeMobileController.m; sourceTree = "<group>"; };
+		A8FD68EF278D90ED00D4B726 /* SafeMobileController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafeMobileController.h; sourceTree = "<group>"; };
 		ABD5894431B031049FBEA52D /* Pods-TestFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFramework.debug.xcconfig"; path = "Target Support Files/Pods-TestFramework/Pods-TestFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		AC98D619FF1BF7B52BEB07F8 /* Pods_TestFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2DC8B9652D4BC45B7CE539E /* Pods-TestFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFramework.release.xcconfig"; path = "Target Support Files/Pods-TestFramework/Pods-TestFramework.release.xcconfig"; sourceTree = "<group>"; };
@@ -100,11 +104,13 @@
 		A8B9C6BA2785859600B758EF /* TestFramework */ = {
 			isa = PBXGroup;
 			children = (
-				A87E08EF2785A74500C982D0 /* assets */,
-				A87E08E12785A5F300C982D0 /* main.jsbundle */,
+				A8FD68E9278D8ECC00D4B726 /* assets */,
+				A8FD68EA278D8ECC00D4B726 /* main.jsbundle */,
 				A8B9C6BB2785859600B758EF /* TestFramework.h */,
 				A8B9C8382785917100B758EF /* safemobile_module.m */,
 				A8B9C6BC2785859600B758EF /* TestFramework.docc */,
+				A8FD68ED278D90D900D4B726 /* SafeMobileController.m */,
+				A8FD68EF278D90ED00D4B726 /* SafeMobileController.h */,
 			);
 			path = TestFramework;
 			sourceTree = "<group>";
@@ -134,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8B9C6C92785859700B758EF /* TestFramework.h in Headers */,
+				A8FD68F0278D90ED00D4B726 /* SafeMobileController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,8 +227,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A87E08E32785A5F300C982D0 /* main.jsbundle in Resources */,
-				A87E08F02785A74500C982D0 /* assets in Resources */,
+				A8FD68EB278D8ECC00D4B726 /* assets in Resources */,
+				A8FD68EC278D8ECC00D4B726 /* main.jsbundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8FD68EE278D90D900D4B726 /* SafeMobileController.m in Sources */,
 				A8B9C8392785917100B758EF /* safemobile_module.m in Sources */,
 				A8B9C6BD2785859600B758EF /* TestFramework.docc in Sources */,
 			);

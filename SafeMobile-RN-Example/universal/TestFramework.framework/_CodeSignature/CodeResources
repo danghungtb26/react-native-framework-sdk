@@ -4,9 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/SafeMobileController.h</key>
+		<data>
+		KBG7sbMTYRH+fLVtXiJEvMpUfoo=
+		</data>
 		<key>Headers/TestFramework.h</key>
 		<data>
-		vkvVO/6NSYrxwKGDnQy/e5SjIZw=
+		OSbqVo9CsT0ZFC1z+zUva/nktIw=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -16,22 +20,49 @@
 		<data>
 		OVfd69Bh6ZZ9Jh0qc7VJePF19lg=
 		</data>
+		<key>assets/node_modules/@react-navigation/elements/src/assets/back-icon-mask.png</key>
+		<data>
+		/9xO1HOyvigG6Z0PaA0dLp/gDlY=
+		</data>
+		<key>assets/node_modules/@react-navigation/elements/src/assets/back-icon.png</key>
+		<data>
+		keLOi1inJdXs0IRSKnXqyhW57Aw=
+		</data>
+		<key>assets/node_modules/@react-navigation/elements/src/assets/back-icon@2x.png</key>
+		<data>
+		rSvG8m4uPMSItIcsIF+N2tDJD8U=
+		</data>
+		<key>assets/node_modules/@react-navigation/elements/src/assets/back-icon@3x.png</key>
+		<data>
+		8kFG8Vv7Hfrw4yVcFrhUhbHieBA=
+		</data>
 		<key>assets/node_modules/react-native/Libraries/NewAppScreen/components/logo.png</key>
 		<data>
 		4K8x+nS4CTlAvCQW4s8i6jn5V10=
 		</data>
+		<key>assets/src/assets/download.jpeg</key>
+		<data>
+		mvNfvdVH70sjCgP3D985QJ4aZ2Q=
+		</data>
 		<key>main.jsbundle</key>
 		<data>
-		HNkWq4sEXyjeXyP1WF5ERe8DWNs=
+		qG3QUYREWsITgSqvpBJvWO1qVDM=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/SafeMobileController.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KcdHONHWV7kyuclQ9iqZB4Z8fwT1YoOBaJ/cBQy1cxQ=
+			</data>
+		</dict>
 		<key>Headers/TestFramework.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			80usiwKxIV2xHYjYR8fCyvXMaVPuD0qm+h0XU429apQ=
+			S1F/4nzNSQzaG4oFk2TB2+z7+ROaEN5OwsYS5kJLRX4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -41,6 +72,34 @@
 			PxlFXpEEBJeusMtT09dAqtN0etomjWbOLbf36w1R2zw=
 			</data>
 		</dict>
+		<key>assets/node_modules/@react-navigation/elements/src/assets/back-icon-mask.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LJXowmdeeZM1/QBGuwfb2gbLfs/1HtN5IsYwnWGcxNM=
+			</data>
+		</dict>
+		<key>assets/node_modules/@react-navigation/elements/src/assets/back-icon.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LN/rjlzN55dvcBL7jM5zryIpAp7iHU8VCf7RFIccbNg=
+			</data>
+		</dict>
+		<key>assets/node_modules/@react-navigation/elements/src/assets/back-icon@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			K3RDqaWOksoRpXW9wRWYYVpX3eMFzYznDWAmBrMCzZg=
+			</data>
+		</dict>
+		<key>assets/node_modules/@react-navigation/elements/src/assets/back-icon@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Pd0Hc+0n4j0leJ8wFzGzrEVa2L5aonoKG4OPicbSciU=
+			</data>
+		</dict>
 		<key>assets/node_modules/react-native/Libraries/NewAppScreen/components/logo.png</key>
 		<dict>
 			<key>hash2</key>
@@ -48,11 +107,18 @@
 			O1vzdHf7ZoEnpM2Eyd8pgI8NYBkJQyorjpdBKhYRkdg=
 			</data>
 		</dict>
+		<key>assets/src/assets/download.jpeg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gG4yej4n1H1DC390P3lfrPSSYvaWQuNQpaZ2vQNWpZc=
+			</data>
+		</dict>
 		<key>main.jsbundle</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hyICsmSNiPBtQbAbngx8KLdyq4spxRIKug7S+yGRUcQ=
+			fjpzDYGMidScmIZOM9e45x272YCISbgysb4dR+KRZxc=
 			</data>
 		</dict>
 	</dict>

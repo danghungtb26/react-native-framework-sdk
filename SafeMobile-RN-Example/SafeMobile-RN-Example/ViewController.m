@@ -6,22 +6,26 @@
 //
 
 #import "ViewController.h"
-#import "TestFramework/TestFramework.h"
+#import "TestFramework/SafeMobileController.h"
 
 @interface ViewController ()
 
 @end
 
 @implementation ViewController {
-    safemobile_module_framework *framework;
+//    safemobile_module_framework *framework;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    UIView *view = [[[safemobile_module_framework alloc] init] getView];
-    self.view = view;
+//    UIView *view = [[[safemobile_module_framework alloc] init] getView];
+//    self.view = view;
 }
+- (IBAction)onPress:(id)sender {
+    SafeMobileController *controller = [[SafeMobileController alloc] init];
 
+        [self presentViewController:controller animated:YES completion:nil];
+}
 
 @end

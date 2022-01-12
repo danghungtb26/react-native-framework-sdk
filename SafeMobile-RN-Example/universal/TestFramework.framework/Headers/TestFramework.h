@@ -7,7 +7,8 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-
+#import <React/RCTBridgeDelegate.h>
+#import "SafeMobileController.h"
 
 //! Project version number for TestFramework.
 FOUNDATION_EXPORT double TestFrameworkVersionNumber;
@@ -18,7 +19,7 @@ FOUNDATION_EXPORT const unsigned char TestFrameworkVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <TestFramework/PublicHeader.h>
 
 
-@interface safemobile_module_framework : NSObject
+@interface safemobile_module_framework : NSObject< RCTBridgeDelegate>
 //-(NSString*) doSomethingAPI;
 - (UIView *) getView;
 @end

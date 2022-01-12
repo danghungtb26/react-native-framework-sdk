@@ -8,62 +8,74 @@
 
 /* Begin PBXBuildFile section */
 		5EE07A7BD20C5690E20A3D44 /* Pods_SafeMobile_RN_ExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93FD89761EF6197E748F6E41 /* Pods_SafeMobile_RN_ExampleTests.framework */; };
-		A8AEF71027868C8800621031 /* FBReactNativeSpec.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF6F327868C8700621031 /* FBReactNativeSpec.framework */; };
-		A8AEF71127868C8800621031 /* jsireact.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF6F427868C8700621031 /* jsireact.framework */; };
-		A8AEF71227868C8800621031 /* yoga.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF6F527868C8700621031 /* yoga.framework */; };
-		A8AEF71327868C8800621031 /* RCTVibration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF6F627868C8700621031 /* RCTVibration.framework */; };
-		A8AEF71427868C8800621031 /* RCTSettings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF6F727868C8700621031 /* RCTSettings.framework */; };
-		A8AEF71527868C8800621031 /* CoreModules.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF6F827868C8700621031 /* CoreModules.framework */; };
-		A8AEF71627868C8800621031 /* RNScreens.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF6F927868C8700621031 /* RNScreens.framework */; };
-		A8AEF71727868C8800621031 /* React.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF6FA27868C8700621031 /* React.framework */; };
-		A8AEF71827868C8800621031 /* RCTAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF6FB27868C8700621031 /* RCTAnimation.framework */; };
-		A8AEF71927868C8800621031 /* RCTNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF6FC27868C8700621031 /* RCTNetwork.framework */; };
-		A8AEF71A27868C8800621031 /* RNGestureHandler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF6FD27868C8700621031 /* RNGestureHandler.framework */; };
-		A8AEF71B27868C8800621031 /* RCTImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF6FE27868C8700621031 /* RCTImage.framework */; };
-		A8AEF71C27868C8800621031 /* RCTBlob.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF6FF27868C8700621031 /* RCTBlob.framework */; };
-		A8AEF71D27868C8800621031 /* glog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF70027868C8700621031 /* glog.framework */; };
-		A8AEF71E27868C8800621031 /* RCTTypeSafety.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF70127868C8700621031 /* RCTTypeSafety.framework */; };
-		A8AEF71F27868C8800621031 /* fmt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF70227868C8700621031 /* fmt.framework */; };
-		A8AEF72027868C8800621031 /* DoubleConversion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF70327868C8700621031 /* DoubleConversion.framework */; };
-		A8AEF72127868C8800621031 /* jsinspector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF70427868C8700621031 /* jsinspector.framework */; };
-		A8AEF72227868C8800621031 /* logger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF70527868C8700621031 /* logger.framework */; };
-		A8AEF72327868C8800621031 /* RNReanimated.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF70627868C8800621031 /* RNReanimated.framework */; };
-		A8AEF72427868C8800621031 /* RCTText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF70727868C8800621031 /* RCTText.framework */; };
-		A8AEF72527868C8800621031 /* reactperflogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF70827868C8800621031 /* reactperflogger.framework */; };
-		A8AEF72627868C8800621031 /* folly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF70927868C8800621031 /* folly.framework */; };
-		A8AEF72727868C8800621031 /* TestFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF70A27868C8800621031 /* TestFramework.framework */; };
-		A8AEF72827868C8800621031 /* RCTLinking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF70B27868C8800621031 /* RCTLinking.framework */; };
-		A8AEF72A27868C8800621031 /* cxxreact.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF70D27868C8800621031 /* cxxreact.framework */; };
-		A8AEF72B27868C8800621031 /* jsi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF70E27868C8800621031 /* jsi.framework */; };
-		A8AEF72C27868C8800621031 /* ReactCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF70F27868C8800621031 /* ReactCommon.framework */; };
-		A8AEF72D27868CAD00621031 /* CoreModules.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF6F827868C8700621031 /* CoreModules.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A8AEF72E27868CAD00621031 /* cxxreact.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF70D27868C8800621031 /* cxxreact.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A8AEF72F27868CAD00621031 /* DoubleConversion.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF70327868C8700621031 /* DoubleConversion.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A8AEF73027868CAD00621031 /* FBReactNativeSpec.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF6F327868C8700621031 /* FBReactNativeSpec.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A8AEF73127868CAD00621031 /* fmt.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF70227868C8700621031 /* fmt.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A8AEF73227868CAD00621031 /* folly.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF70927868C8800621031 /* folly.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A8AEF73327868CAD00621031 /* glog.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF70027868C8700621031 /* glog.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A8AEF73427868CAD00621031 /* jsi.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF70E27868C8800621031 /* jsi.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A8AEF73527868CAD00621031 /* jsinspector.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF70427868C8700621031 /* jsinspector.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A8AEF73627868CAD00621031 /* jsireact.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF6F427868C8700621031 /* jsireact.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A8AEF73727868CAD00621031 /* logger.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF70527868C8700621031 /* logger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A8AEF73927868CAD00621031 /* RCTAnimation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF6FB27868C8700621031 /* RCTAnimation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A8AEF73A27868CAD00621031 /* RCTBlob.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF6FF27868C8700621031 /* RCTBlob.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A8AEF73B27868CAD00621031 /* RCTImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF6FE27868C8700621031 /* RCTImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A8AEF73C27868CAD00621031 /* RCTLinking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF70B27868C8800621031 /* RCTLinking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A8AEF73D27868CAD00621031 /* RCTNetwork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF6FC27868C8700621031 /* RCTNetwork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A8AEF73E27868CAD00621031 /* RCTSettings.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF6F727868C8700621031 /* RCTSettings.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A8AEF73F27868CAD00621031 /* RCTText.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF70727868C8800621031 /* RCTText.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A8AEF74027868CAD00621031 /* RCTTypeSafety.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF70127868C8700621031 /* RCTTypeSafety.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A8AEF74127868CAD00621031 /* RCTVibration.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF6F627868C8700621031 /* RCTVibration.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A8AEF74227868CAD00621031 /* React.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF6FA27868C8700621031 /* React.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A8AEF74327868CAD00621031 /* ReactCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF70F27868C8800621031 /* ReactCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A8AEF74427868CAD00621031 /* reactperflogger.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF70827868C8800621031 /* reactperflogger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A8AEF74527868CAD00621031 /* RNGestureHandler.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF6FD27868C8700621031 /* RNGestureHandler.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A8AEF74627868CAD00621031 /* RNReanimated.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF70627868C8800621031 /* RNReanimated.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A8AEF74727868CAD00621031 /* RNScreens.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF6F927868C8700621031 /* RNScreens.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A8AEF74827868CAD00621031 /* TestFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF70A27868C8800621031 /* TestFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A8AEF74927868CAD00621031 /* yoga.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8AEF6F527868C8700621031 /* yoga.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A86C1DA4278DB56F00CF5B5C /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = A86C1DA2278DB56F00CF5B5C /* main.jsbundle */; };
+		A86C1DA5278DB56F00CF5B5C /* assets in Resources */ = {isa = PBXBuildFile; fileRef = A86C1DA3278DB56F00CF5B5C /* assets */; };
+		A86C20E0278E7B7A00CF5B5C /* RNSVGPainterBrush.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C2058278E7B7900CF5B5C /* RNSVGPainterBrush.m */; };
+		A86C20E1278E7B7A00CF5B5C /* RNSVGBrush.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C205B278E7B7900CF5B5C /* RNSVGBrush.m */; };
+		A86C20E2278E7B7A00CF5B5C /* RNSVGPainter.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C205C278E7B7900CF5B5C /* RNSVGPainter.m */; };
+		A86C20E3278E7B7A00CF5B5C /* RNSVGSolidColorBrush.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C205D278E7B7900CF5B5C /* RNSVGSolidColorBrush.m */; };
+		A86C20E4278E7B7A00CF5B5C /* RNSVGContextBrush.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C205E278E7B7900CF5B5C /* RNSVGContextBrush.m */; };
+		A86C20E5278E7B7A00CF5B5C /* RNSVGUseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C2063278E7B7900CF5B5C /* RNSVGUseManager.m */; };
+		A86C20E6278E7B7A00CF5B5C /* RNSVGRectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C2065278E7B7900CF5B5C /* RNSVGRectManager.m */; };
+		A86C20E7278E7B7A00CF5B5C /* RNSVGRadialGradientManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C2067278E7B7900CF5B5C /* RNSVGRadialGradientManager.m */; };
+		A86C20E8278E7B7A00CF5B5C /* RNSVGEllipseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C206B278E7B7900CF5B5C /* RNSVGEllipseManager.m */; };
+		A86C20E9278E7B7A00CF5B5C /* RNSVGMarkerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C206D278E7B7900CF5B5C /* RNSVGMarkerManager.m */; };
+		A86C20EA278E7B7A00CF5B5C /* RNSVGMaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C2070278E7B7900CF5B5C /* RNSVGMaskManager.m */; };
+		A86C20EB278E7B7A00CF5B5C /* RNSVGPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C2073278E7B7900CF5B5C /* RNSVGPathManager.m */; };
+		A86C20EC278E7B7A00CF5B5C /* RNSVGSymbolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C2075278E7B7900CF5B5C /* RNSVGSymbolManager.m */; };
+		A86C20ED278E7B7A00CF5B5C /* RNSVGNodeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C2079278E7B7900CF5B5C /* RNSVGNodeManager.m */; };
+		A86C20EE278E7B7A00CF5B5C /* RNSVGClipPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C207A278E7B7900CF5B5C /* RNSVGClipPathManager.m */; };
+		A86C20EF278E7B7A00CF5B5C /* RNSVGSvgViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C207B278E7B7A00CF5B5C /* RNSVGSvgViewManager.m */; };
+		A86C20F0278E7B7A00CF5B5C /* RNSVGDefsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C207E278E7B7A00CF5B5C /* RNSVGDefsManager.m */; };
+		A86C20F1278E7B7A00CF5B5C /* RNSVGTextManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C207F278E7B7A00CF5B5C /* RNSVGTextManager.m */; };
+		A86C20F2278E7B7A00CF5B5C /* RNSVGRenderableManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C2081278E7B7A00CF5B5C /* RNSVGRenderableManager.m */; };
+		A86C20F3278E7B7A00CF5B5C /* RNSVGLinearGradientManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C2082278E7B7A00CF5B5C /* RNSVGLinearGradientManager.m */; };
+		A86C20F4278E7B7A00CF5B5C /* RNSVGTextPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C2084278E7B7A00CF5B5C /* RNSVGTextPathManager.m */; };
+		A86C20F5278E7B7A00CF5B5C /* RNSVGImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C2086278E7B7A00CF5B5C /* RNSVGImageManager.m */; };
+		A86C20F6278E7B7A00CF5B5C /* RNSVGGroupManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C2088278E7B7A00CF5B5C /* RNSVGGroupManager.m */; };
+		A86C20F7278E7B7A00CF5B5C /* RNSVGForeignObjectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C208A278E7B7A00CF5B5C /* RNSVGForeignObjectManager.m */; };
+		A86C20F8278E7B7A00CF5B5C /* RNSVGCircleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C208B278E7B7A00CF5B5C /* RNSVGCircleManager.m */; };
+		A86C20F9278E7B7A00CF5B5C /* RNSVGLineManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C208C278E7B7A00CF5B5C /* RNSVGLineManager.m */; };
+		A86C20FA278E7B7A00CF5B5C /* RNSVGPatternManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C208D278E7B7A00CF5B5C /* RNSVGPatternManager.m */; };
+		A86C20FB278E7B7A00CF5B5C /* RNSVGTSpanManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C208E278E7B7A00CF5B5C /* RNSVGTSpanManager.m */; };
+		A86C20FC278E7B7A00CF5B5C /* RNSVGRect.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C2091278E7B7A00CF5B5C /* RNSVGRect.m */; };
+		A86C20FD278E7B7A00CF5B5C /* RNSVGCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C2093278E7B7A00CF5B5C /* RNSVGCircle.m */; };
+		A86C20FE278E7B7A00CF5B5C /* RNSVGLine.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C2094278E7B7A00CF5B5C /* RNSVGLine.m */; };
+		A86C20FF278E7B7A00CF5B5C /* RNSVGEllipse.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C2097278E7B7A00CF5B5C /* RNSVGEllipse.m */; };
+		A86C2100278E7B7A00CF5B5C /* RCTConvert+RNSVG.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C209A278E7B7A00CF5B5C /* RCTConvert+RNSVG.m */; };
+		A86C2101278E7B7A00CF5B5C /* RNSVGPathMeasure.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C209D278E7B7A00CF5B5C /* RNSVGPathMeasure.m */; };
+		A86C2102278E7B7A00CF5B5C /* RNSVGBezierElement.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C20A1278E7B7A00CF5B5C /* RNSVGBezierElement.m */; };
+		A86C2103278E7B7A00CF5B5C /* RNSVGPathParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C20A2278E7B7A00CF5B5C /* RNSVGPathParser.m */; };
+		A86C2104278E7B7A00CF5B5C /* RNSVGLength.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C20A6278E7B7A00CF5B5C /* RNSVGLength.m */; };
+		A86C2105278E7B7A00CF5B5C /* RNSVGViewBox.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C20A9278E7B7A00CF5B5C /* RNSVGViewBox.m */; };
+		A86C2106278E7B7A00CF5B5C /* RNSVGMarkerPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C20AB278E7B7A00CF5B5C /* RNSVGMarkerPosition.m */; };
+		A86C2107278E7B7A00CF5B5C /* RNSVGPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C20AF278E7B7A00CF5B5C /* RNSVGPattern.m */; };
+		A86C2108278E7B7A00CF5B5C /* RNSVGSymbol.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C20B5278E7B7A00CF5B5C /* RNSVGSymbol.m */; };
+		A86C2109278E7B7A00CF5B5C /* RNSVGForeignObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C20B6278E7B7A00CF5B5C /* RNSVGForeignObject.m */; };
+		A86C210A278E7B7A00CF5B5C /* RNSVGRadialGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C20B7278E7B7A00CF5B5C /* RNSVGRadialGradient.m */; };
+		A86C210B278E7B7A00CF5B5C /* RNSVGClipPath.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C20B8278E7B7A00CF5B5C /* RNSVGClipPath.m */; };
+		A86C210C278E7B7A00CF5B5C /* RNSVGMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C20BA278E7B7A00CF5B5C /* RNSVGMarker.m */; };
+		A86C210D278E7B7A00CF5B5C /* RNSVGLinearGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C20BB278E7B7A00CF5B5C /* RNSVGLinearGradient.m */; };
+		A86C210E278E7B7A00CF5B5C /* RNSVGSvgView.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C20BC278E7B7A00CF5B5C /* RNSVGSvgView.m */; };
+		A86C210F278E7B7A00CF5B5C /* RNSVGMask.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C20BD278E7B7A00CF5B5C /* RNSVGMask.m */; };
+		A86C2110278E7B7A00CF5B5C /* RNSVGUse.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C20BE278E7B7A00CF5B5C /* RNSVGUse.m */; };
+		A86C2111278E7B7A00CF5B5C /* RNSVGDefs.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C20C0278E7B7A00CF5B5C /* RNSVGDefs.m */; };
+		A86C2112278E7B7A00CF5B5C /* RNSVGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C20C4278E7B7A00CF5B5C /* RNSVGImage.m */; };
+		A86C2113278E7B7A00CF5B5C /* RNSVGPath.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C20C5278E7B7A00CF5B5C /* RNSVGPath.m */; };
+		A86C2114278E7B7A00CF5B5C /* RNSVGGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C20C7278E7B7A00CF5B5C /* RNSVGGroup.m */; };
+		A86C2115278E7B7A00CF5B5C /* RNSVGRenderable.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C20CA278E7B7A00CF5B5C /* RNSVGRenderable.m */; };
+		A86C2116278E7B7A00CF5B5C /* RNSVGTextPath.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C20CC278E7B7A00CF5B5C /* RNSVGTextPath.m */; };
+		A86C2117278E7B7A00CF5B5C /* RNSVGPropHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C20CD278E7B7A00CF5B5C /* RNSVGPropHelper.m */; };
+		A86C2119278E7B7A00CF5B5C /* RNSVGTextProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C20D0278E7B7A00CF5B5C /* RNSVGTextProperties.m */; };
+		A86C211A278E7B7A00CF5B5C /* RNSVGFontData.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C20D1278E7B7A00CF5B5C /* RNSVGFontData.m */; };
+		A86C211B278E7B7A00CF5B5C /* RNSVGText.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C20D7278E7B7A00CF5B5C /* RNSVGText.m */; };
+		A86C211C278E7B7A00CF5B5C /* RNSVGTopAlignedLabel.ios.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C20D8278E7B7A00CF5B5C /* RNSVGTopAlignedLabel.ios.m */; };
+		A86C211D278E7B7A00CF5B5C /* RNSVGTSpan.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C20D9278E7B7A00CF5B5C /* RNSVGTSpan.m */; };
+		A86C211E278E7B7A00CF5B5C /* RNSVGGlyphContext.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C20DC278E7B7A00CF5B5C /* RNSVGGlyphContext.m */; };
+		A86C2120278E7B7A00CF5B5C /* RNSVGNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A86C20DE278E7B7A00CF5B5C /* RNSVGNode.m */; };
+		A86C2128278E7BE200CF5B5C /* Mmkv.mm in Sources */ = {isa = PBXBuildFile; fileRef = A86C2124278E7BE200CF5B5C /* Mmkv.mm */; };
+		A86C2129278E7BE200CF5B5C /* MmkvHostObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = A86C2125278E7BE200CF5B5C /* MmkvHostObject.mm */; };
+		A86C212A278E7BE200CF5B5C /* JSIUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = A86C2127278E7BE200CF5B5C /* JSIUtils.mm */; };
 		A8D72E502782A38F001756EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D72E4F2782A38F001756EE /* AppDelegate.m */; };
 		A8D72E532782A38F001756EE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D72E522782A38F001756EE /* SceneDelegate.m */; };
 		A8D72E562782A38F001756EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D72E552782A38F001756EE /* ViewController.m */; };
@@ -74,6 +86,82 @@
 		A8D72E6B2782A391001756EE /* SafeMobile_RN_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D72E6A2782A391001756EE /* SafeMobile_RN_ExampleTests.m */; };
 		A8D72E752782A391001756EE /* SafeMobile_RN_ExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D72E742782A391001756EE /* SafeMobile_RN_ExampleUITests.m */; };
 		A8D72E772782A391001756EE /* SafeMobile_RN_ExampleUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D72E762782A391001756EE /* SafeMobile_RN_ExampleUITestsLaunchTests.m */; };
+		A8FD689C278D8DF800D4B726 /* RNCClipboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6875278D8DF700D4B726 /* RNCClipboard.framework */; platformFilter = ios; };
+		A8FD689D278D8DF900D4B726 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6876278D8DF700D4B726 /* SDWebImage.framework */; platformFilter = ios; };
+		A8FD689E278D8DF900D4B726 /* logger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6877278D8DF700D4B726 /* logger.framework */; platformFilter = ios; };
+		A8FD689F278D8DF900D4B726 /* CoreModules.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6878278D8DF700D4B726 /* CoreModules.framework */; platformFilter = ios; };
+		A8FD68A0278D8DF900D4B726 /* react_native_pager_view.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6879278D8DF700D4B726 /* react_native_pager_view.framework */; platformFilter = ios; };
+		A8FD68A1278D8DF900D4B726 /* glog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD687A278D8DF700D4B726 /* glog.framework */; platformFilter = ios; };
+		A8FD68A2278D8DF900D4B726 /* libwebp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD687B278D8DF700D4B726 /* libwebp.framework */; platformFilter = ios; };
+		A8FD68A3278D8DF900D4B726 /* cxxreact.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD687C278D8DF700D4B726 /* cxxreact.framework */; platformFilter = ios; };
+		A8FD68A4278D8DF900D4B726 /* folly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD687D278D8DF700D4B726 /* folly.framework */; platformFilter = ios; };
+		A8FD68A5278D8DF900D4B726 /* RNFastImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD687E278D8DF700D4B726 /* RNFastImage.framework */; platformFilter = ios; };
+		A8FD68A6278D8DF900D4B726 /* RNReanimated.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD687F278D8DF700D4B726 /* RNReanimated.framework */; platformFilter = ios; };
+		A8FD68A7278D8DF900D4B726 /* ReactCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6880278D8DF700D4B726 /* ReactCommon.framework */; platformFilter = ios; };
+		A8FD68A8278D8DF900D4B726 /* SDWebImageWebPCoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6881278D8DF700D4B726 /* SDWebImageWebPCoder.framework */; platformFilter = ios; };
+		A8FD68A9278D8DF900D4B726 /* RCTSettings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6882278D8DF700D4B726 /* RCTSettings.framework */; platformFilter = ios; };
+		A8FD68AA278D8DF900D4B726 /* RCTImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6883278D8DF700D4B726 /* RCTImage.framework */; platformFilter = ios; };
+		A8FD68AB278D8DF900D4B726 /* React.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6884278D8DF700D4B726 /* React.framework */; platformFilter = ios; };
+		A8FD68AC278D8DF900D4B726 /* react_native_safe_area_context.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6885278D8DF700D4B726 /* react_native_safe_area_context.framework */; platformFilter = ios; };
+		A8FD68AD278D8DF900D4B726 /* yoga.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6886278D8DF800D4B726 /* yoga.framework */; platformFilter = ios; };
+		A8FD68AE278D8DF900D4B726 /* RCTTypeSafety.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6887278D8DF800D4B726 /* RCTTypeSafety.framework */; platformFilter = ios; };
+		A8FD68AF278D8DF900D4B726 /* RCTBlob.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6888278D8DF800D4B726 /* RCTBlob.framework */; platformFilter = ios; };
+		A8FD68B0278D8DF900D4B726 /* RCTAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6889278D8DF800D4B726 /* RCTAnimation.framework */; platformFilter = ios; };
+		A8FD68B1278D8DF900D4B726 /* fmt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD688A278D8DF800D4B726 /* fmt.framework */; platformFilter = ios; };
+		A8FD68B2278D8DF900D4B726 /* jsireact.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD688B278D8DF800D4B726 /* jsireact.framework */; platformFilter = ios; };
+		A8FD68B4278D8DF900D4B726 /* jsinspector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD688D278D8DF800D4B726 /* jsinspector.framework */; platformFilter = ios; };
+		A8FD68B5278D8DF900D4B726 /* RCTLinking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD688E278D8DF800D4B726 /* RCTLinking.framework */; platformFilter = ios; };
+		A8FD68B6278D8DF900D4B726 /* RCTVibration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD688F278D8DF800D4B726 /* RCTVibration.framework */; platformFilter = ios; };
+		A8FD68B7278D8DF900D4B726 /* RNDateTimePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6890278D8DF800D4B726 /* RNDateTimePicker.framework */; platformFilter = ios; };
+		A8FD68B8278D8DF900D4B726 /* reactperflogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6891278D8DF800D4B726 /* reactperflogger.framework */; platformFilter = ios; };
+		A8FD68B9278D8DF900D4B726 /* RNDeviceInfo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6892278D8DF800D4B726 /* RNDeviceInfo.framework */; platformFilter = ios; };
+		A8FD68BA278D8DF900D4B726 /* RNScreens.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6893278D8DF800D4B726 /* RNScreens.framework */; platformFilter = ios; };
+		A8FD68BB278D8DF900D4B726 /* RNShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6894278D8DF800D4B726 /* RNShare.framework */; platformFilter = ios; };
+		A8FD68BC278D8DF900D4B726 /* RNGestureHandler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6895278D8DF800D4B726 /* RNGestureHandler.framework */; platformFilter = ios; };
+		A8FD68BE278D8DF900D4B726 /* RCTNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6897278D8DF800D4B726 /* RCTNetwork.framework */; platformFilter = ios; };
+		A8FD68BF278D8DF900D4B726 /* FBReactNativeSpec.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6898278D8DF800D4B726 /* FBReactNativeSpec.framework */; platformFilter = ios; };
+		A8FD68C0278D8DF900D4B726 /* RCTText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6899278D8DF800D4B726 /* RCTText.framework */; platformFilter = ios; };
+		A8FD68C1278D8DF900D4B726 /* DoubleConversion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD689A278D8DF800D4B726 /* DoubleConversion.framework */; platformFilter = ios; };
+		A8FD68C2278D8DF900D4B726 /* jsi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD689B278D8DF800D4B726 /* jsi.framework */; platformFilter = ios; };
+		A8FD68C3278D8E0800D4B726 /* CoreModules.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6878278D8DF700D4B726 /* CoreModules.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8FD68C4278D8E0800D4B726 /* cxxreact.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD687C278D8DF700D4B726 /* cxxreact.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8FD68C5278D8E0800D4B726 /* DoubleConversion.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD689A278D8DF800D4B726 /* DoubleConversion.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8FD68C6278D8E0800D4B726 /* FBReactNativeSpec.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6898278D8DF800D4B726 /* FBReactNativeSpec.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8FD68C7278D8E0800D4B726 /* fmt.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD688A278D8DF800D4B726 /* fmt.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8FD68C8278D8E0800D4B726 /* folly.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD687D278D8DF700D4B726 /* folly.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8FD68C9278D8E0800D4B726 /* glog.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD687A278D8DF700D4B726 /* glog.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8FD68CA278D8E0800D4B726 /* jsi.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD689B278D8DF800D4B726 /* jsi.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8FD68CB278D8E0800D4B726 /* jsinspector.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD688D278D8DF800D4B726 /* jsinspector.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8FD68CC278D8E0800D4B726 /* jsireact.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD688B278D8DF800D4B726 /* jsireact.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8FD68CD278D8E0800D4B726 /* libwebp.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD687B278D8DF700D4B726 /* libwebp.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8FD68CE278D8E0800D4B726 /* logger.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6877278D8DF700D4B726 /* logger.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8FD68CF278D8E0800D4B726 /* RCTAnimation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6889278D8DF800D4B726 /* RCTAnimation.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8FD68D0278D8E0800D4B726 /* RCTBlob.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6888278D8DF800D4B726 /* RCTBlob.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8FD68D1278D8E0800D4B726 /* RCTImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6883278D8DF700D4B726 /* RCTImage.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8FD68D2278D8E0800D4B726 /* RCTLinking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD688E278D8DF800D4B726 /* RCTLinking.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8FD68D3278D8E0800D4B726 /* RCTNetwork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6897278D8DF800D4B726 /* RCTNetwork.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8FD68D4278D8E0800D4B726 /* RCTSettings.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6882278D8DF700D4B726 /* RCTSettings.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8FD68D5278D8E0800D4B726 /* RCTText.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6899278D8DF800D4B726 /* RCTText.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8FD68D6278D8E0800D4B726 /* RCTTypeSafety.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6887278D8DF800D4B726 /* RCTTypeSafety.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8FD68D7278D8E0800D4B726 /* RCTVibration.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD688F278D8DF800D4B726 /* RCTVibration.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8FD68D8278D8E0800D4B726 /* react_native_pager_view.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6879278D8DF700D4B726 /* react_native_pager_view.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8FD68D9278D8E0800D4B726 /* react_native_safe_area_context.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6885278D8DF700D4B726 /* react_native_safe_area_context.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8FD68DA278D8E0800D4B726 /* React.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6884278D8DF700D4B726 /* React.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8FD68DB278D8E0800D4B726 /* ReactCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6880278D8DF700D4B726 /* ReactCommon.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8FD68DC278D8E0800D4B726 /* reactperflogger.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6891278D8DF800D4B726 /* reactperflogger.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8FD68DD278D8E0800D4B726 /* RNCClipboard.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6875278D8DF700D4B726 /* RNCClipboard.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8FD68DE278D8E0800D4B726 /* RNDateTimePicker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6890278D8DF800D4B726 /* RNDateTimePicker.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8FD68DF278D8E0800D4B726 /* RNDeviceInfo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6892278D8DF800D4B726 /* RNDeviceInfo.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8FD68E0278D8E0800D4B726 /* RNFastImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD687E278D8DF700D4B726 /* RNFastImage.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8FD68E1278D8E0800D4B726 /* RNGestureHandler.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6895278D8DF800D4B726 /* RNGestureHandler.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8FD68E2278D8E0800D4B726 /* RNReanimated.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD687F278D8DF700D4B726 /* RNReanimated.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8FD68E3278D8E0800D4B726 /* RNScreens.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6893278D8DF800D4B726 /* RNScreens.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8FD68E4278D8E0800D4B726 /* RNShare.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6894278D8DF800D4B726 /* RNShare.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8FD68E5278D8E0800D4B726 /* SDWebImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6876278D8DF700D4B726 /* SDWebImage.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8FD68E6278D8E0800D4B726 /* SDWebImageWebPCoder.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6881278D8DF700D4B726 /* SDWebImageWebPCoder.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8FD68E8278D8E0800D4B726 /* yoga.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD6886278D8DF800D4B726 /* yoga.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8FD68F4278D91F400D4B726 /* TestFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD68F3278D91F400D4B726 /* TestFramework.framework */; platformFilter = ios; };
+		A8FD68F5278D91FA00D4B726 /* TestFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD68F3278D91F400D4B726 /* TestFramework.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B4240D59AACFF6915911D9F2 /* Pods_SafeMobile_RN_Example_SafeMobile_RN_ExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F76E0A0269A551C9B98465 /* Pods_SafeMobile_RN_Example_SafeMobile_RN_ExampleUITests.framework */; };
 		FCDD592436031D017E3AC459 /* Pods_SafeMobile_RN_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F304C77988428DE6028F8B /* Pods_SafeMobile_RN_Example.framework */; };
 /* End PBXBuildFile section */
@@ -102,34 +190,44 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A8AEF72D27868CAD00621031 /* CoreModules.framework in Embed Frameworks */,
-				A8AEF72E27868CAD00621031 /* cxxreact.framework in Embed Frameworks */,
-				A8AEF72F27868CAD00621031 /* DoubleConversion.framework in Embed Frameworks */,
-				A8AEF73027868CAD00621031 /* FBReactNativeSpec.framework in Embed Frameworks */,
-				A8AEF73127868CAD00621031 /* fmt.framework in Embed Frameworks */,
-				A8AEF73227868CAD00621031 /* folly.framework in Embed Frameworks */,
-				A8AEF73327868CAD00621031 /* glog.framework in Embed Frameworks */,
-				A8AEF73427868CAD00621031 /* jsi.framework in Embed Frameworks */,
-				A8AEF73527868CAD00621031 /* jsinspector.framework in Embed Frameworks */,
-				A8AEF73627868CAD00621031 /* jsireact.framework in Embed Frameworks */,
-				A8AEF73727868CAD00621031 /* logger.framework in Embed Frameworks */,
-				A8AEF73927868CAD00621031 /* RCTAnimation.framework in Embed Frameworks */,
-				A8AEF73A27868CAD00621031 /* RCTBlob.framework in Embed Frameworks */,
-				A8AEF73B27868CAD00621031 /* RCTImage.framework in Embed Frameworks */,
-				A8AEF73C27868CAD00621031 /* RCTLinking.framework in Embed Frameworks */,
-				A8AEF73D27868CAD00621031 /* RCTNetwork.framework in Embed Frameworks */,
-				A8AEF73E27868CAD00621031 /* RCTSettings.framework in Embed Frameworks */,
-				A8AEF73F27868CAD00621031 /* RCTText.framework in Embed Frameworks */,
-				A8AEF74027868CAD00621031 /* RCTTypeSafety.framework in Embed Frameworks */,
-				A8AEF74127868CAD00621031 /* RCTVibration.framework in Embed Frameworks */,
-				A8AEF74227868CAD00621031 /* React.framework in Embed Frameworks */,
-				A8AEF74327868CAD00621031 /* ReactCommon.framework in Embed Frameworks */,
-				A8AEF74427868CAD00621031 /* reactperflogger.framework in Embed Frameworks */,
-				A8AEF74527868CAD00621031 /* RNGestureHandler.framework in Embed Frameworks */,
-				A8AEF74627868CAD00621031 /* RNReanimated.framework in Embed Frameworks */,
-				A8AEF74727868CAD00621031 /* RNScreens.framework in Embed Frameworks */,
-				A8AEF74827868CAD00621031 /* TestFramework.framework in Embed Frameworks */,
-				A8AEF74927868CAD00621031 /* yoga.framework in Embed Frameworks */,
+				A8FD68F5278D91FA00D4B726 /* TestFramework.framework in Embed Frameworks */,
+				A8FD68C3278D8E0800D4B726 /* CoreModules.framework in Embed Frameworks */,
+				A8FD68C4278D8E0800D4B726 /* cxxreact.framework in Embed Frameworks */,
+				A8FD68C5278D8E0800D4B726 /* DoubleConversion.framework in Embed Frameworks */,
+				A8FD68C6278D8E0800D4B726 /* FBReactNativeSpec.framework in Embed Frameworks */,
+				A8FD68C7278D8E0800D4B726 /* fmt.framework in Embed Frameworks */,
+				A8FD68C8278D8E0800D4B726 /* folly.framework in Embed Frameworks */,
+				A8FD68C9278D8E0800D4B726 /* glog.framework in Embed Frameworks */,
+				A8FD68CA278D8E0800D4B726 /* jsi.framework in Embed Frameworks */,
+				A8FD68CB278D8E0800D4B726 /* jsinspector.framework in Embed Frameworks */,
+				A8FD68CC278D8E0800D4B726 /* jsireact.framework in Embed Frameworks */,
+				A8FD68CD278D8E0800D4B726 /* libwebp.framework in Embed Frameworks */,
+				A8FD68CE278D8E0800D4B726 /* logger.framework in Embed Frameworks */,
+				A8FD68CF278D8E0800D4B726 /* RCTAnimation.framework in Embed Frameworks */,
+				A8FD68D0278D8E0800D4B726 /* RCTBlob.framework in Embed Frameworks */,
+				A8FD68D1278D8E0800D4B726 /* RCTImage.framework in Embed Frameworks */,
+				A8FD68D2278D8E0800D4B726 /* RCTLinking.framework in Embed Frameworks */,
+				A8FD68D3278D8E0800D4B726 /* RCTNetwork.framework in Embed Frameworks */,
+				A8FD68D4278D8E0800D4B726 /* RCTSettings.framework in Embed Frameworks */,
+				A8FD68D5278D8E0800D4B726 /* RCTText.framework in Embed Frameworks */,
+				A8FD68D6278D8E0800D4B726 /* RCTTypeSafety.framework in Embed Frameworks */,
+				A8FD68D7278D8E0800D4B726 /* RCTVibration.framework in Embed Frameworks */,
+				A8FD68D8278D8E0800D4B726 /* react_native_pager_view.framework in Embed Frameworks */,
+				A8FD68D9278D8E0800D4B726 /* react_native_safe_area_context.framework in Embed Frameworks */,
+				A8FD68DA278D8E0800D4B726 /* React.framework in Embed Frameworks */,
+				A8FD68DB278D8E0800D4B726 /* ReactCommon.framework in Embed Frameworks */,
+				A8FD68DC278D8E0800D4B726 /* reactperflogger.framework in Embed Frameworks */,
+				A8FD68DD278D8E0800D4B726 /* RNCClipboard.framework in Embed Frameworks */,
+				A8FD68DE278D8E0800D4B726 /* RNDateTimePicker.framework in Embed Frameworks */,
+				A8FD68DF278D8E0800D4B726 /* RNDeviceInfo.framework in Embed Frameworks */,
+				A8FD68E0278D8E0800D4B726 /* RNFastImage.framework in Embed Frameworks */,
+				A8FD68E1278D8E0800D4B726 /* RNGestureHandler.framework in Embed Frameworks */,
+				A8FD68E2278D8E0800D4B726 /* RNReanimated.framework in Embed Frameworks */,
+				A8FD68E3278D8E0800D4B726 /* RNScreens.framework in Embed Frameworks */,
+				A8FD68E4278D8E0800D4B726 /* RNShare.framework in Embed Frameworks */,
+				A8FD68E5278D8E0800D4B726 /* SDWebImage.framework in Embed Frameworks */,
+				A8FD68E6278D8E0800D4B726 /* SDWebImageWebPCoder.framework in Embed Frameworks */,
+				A8FD68E8278D8E0800D4B726 /* yoga.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,35 +241,148 @@
 		88A469764DA2E0CB39747DB7 /* Pods-SafeMobile-RN-ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeMobile-RN-ExampleTests.release.xcconfig"; path = "Target Support Files/Pods-SafeMobile-RN-ExampleTests/Pods-SafeMobile-RN-ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		9147B394D93F0D004937C6DA /* Pods-SafeMobile-RN-Example-SafeMobile-RN-ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeMobile-RN-Example-SafeMobile-RN-ExampleUITests.release.xcconfig"; path = "Target Support Files/Pods-SafeMobile-RN-Example-SafeMobile-RN-ExampleUITests/Pods-SafeMobile-RN-Example-SafeMobile-RN-ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		93FD89761EF6197E748F6E41 /* Pods_SafeMobile_RN_ExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SafeMobile_RN_ExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A86C1DA2278DB56F00CF5B5C /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		A86C1DA3278DB56F00CF5B5C /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		A86C2054278E7B7900CF5B5C /* RNSVGPainter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGPainter.h; sourceTree = "<group>"; };
+		A86C2055278E7B7900CF5B5C /* RNSVGSolidColorBrush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGSolidColorBrush.h; sourceTree = "<group>"; };
+		A86C2056278E7B7900CF5B5C /* RNSVGBrush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGBrush.h; sourceTree = "<group>"; };
+		A86C2057278E7B7900CF5B5C /* RNSVGBrushType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGBrushType.h; sourceTree = "<group>"; };
+		A86C2058278E7B7900CF5B5C /* RNSVGPainterBrush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGPainterBrush.m; sourceTree = "<group>"; };
+		A86C2059278E7B7900CF5B5C /* RNSVGContextBrush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGContextBrush.h; sourceTree = "<group>"; };
+		A86C205A278E7B7900CF5B5C /* RNSVGPainterBrush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGPainterBrush.h; sourceTree = "<group>"; };
+		A86C205B278E7B7900CF5B5C /* RNSVGBrush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGBrush.m; sourceTree = "<group>"; };
+		A86C205C278E7B7900CF5B5C /* RNSVGPainter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGPainter.m; sourceTree = "<group>"; };
+		A86C205D278E7B7900CF5B5C /* RNSVGSolidColorBrush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGSolidColorBrush.m; sourceTree = "<group>"; };
+		A86C205E278E7B7900CF5B5C /* RNSVGContextBrush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGContextBrush.m; sourceTree = "<group>"; };
+		A86C205F278E7B7900CF5B5C /* RNSVGUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGUIKit.h; sourceTree = "<group>"; };
+		A86C2060278E7B7900CF5B5C /* RNSVGRenderable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGRenderable.h; sourceTree = "<group>"; };
+		A86C2062278E7B7900CF5B5C /* RNSVGRenderableManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGRenderableManager.h; sourceTree = "<group>"; };
+		A86C2063278E7B7900CF5B5C /* RNSVGUseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGUseManager.m; sourceTree = "<group>"; };
+		A86C2064278E7B7900CF5B5C /* RNSVGTextManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGTextManager.h; sourceTree = "<group>"; };
+		A86C2065278E7B7900CF5B5C /* RNSVGRectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGRectManager.m; sourceTree = "<group>"; };
+		A86C2066278E7B7900CF5B5C /* RNSVGDefsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGDefsManager.h; sourceTree = "<group>"; };
+		A86C2067278E7B7900CF5B5C /* RNSVGRadialGradientManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGRadialGradientManager.m; sourceTree = "<group>"; };
+		A86C2068278E7B7900CF5B5C /* RNSVGSvgViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGSvgViewManager.h; sourceTree = "<group>"; };
+		A86C2069278E7B7900CF5B5C /* RNSVGNodeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGNodeManager.h; sourceTree = "<group>"; };
+		A86C206A278E7B7900CF5B5C /* RNSVGClipPathManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGClipPathManager.h; sourceTree = "<group>"; };
+		A86C206B278E7B7900CF5B5C /* RNSVGEllipseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGEllipseManager.m; sourceTree = "<group>"; };
+		A86C206C278E7B7900CF5B5C /* RNSVGTextPathManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGTextPathManager.h; sourceTree = "<group>"; };
+		A86C206D278E7B7900CF5B5C /* RNSVGMarkerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGMarkerManager.m; sourceTree = "<group>"; };
+		A86C206E278E7B7900CF5B5C /* RNSVGLinearGradientManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGLinearGradientManager.h; sourceTree = "<group>"; };
+		A86C206F278E7B7900CF5B5C /* RNSVGCircleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGCircleManager.h; sourceTree = "<group>"; };
+		A86C2070278E7B7900CF5B5C /* RNSVGMaskManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGMaskManager.m; sourceTree = "<group>"; };
+		A86C2071278E7B7900CF5B5C /* RNSVGForeignObjectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGForeignObjectManager.h; sourceTree = "<group>"; };
+		A86C2072278E7B7900CF5B5C /* RNSVGGroupManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGGroupManager.h; sourceTree = "<group>"; };
+		A86C2073278E7B7900CF5B5C /* RNSVGPathManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGPathManager.m; sourceTree = "<group>"; };
+		A86C2074278E7B7900CF5B5C /* RNSVGImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGImageManager.h; sourceTree = "<group>"; };
+		A86C2075278E7B7900CF5B5C /* RNSVGSymbolManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGSymbolManager.m; sourceTree = "<group>"; };
+		A86C2076278E7B7900CF5B5C /* RNSVGTSpanManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGTSpanManager.h; sourceTree = "<group>"; };
+		A86C2077278E7B7900CF5B5C /* RNSVGPatternManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGPatternManager.h; sourceTree = "<group>"; };
+		A86C2078278E7B7900CF5B5C /* RNSVGLineManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGLineManager.h; sourceTree = "<group>"; };
+		A86C2079278E7B7900CF5B5C /* RNSVGNodeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGNodeManager.m; sourceTree = "<group>"; };
+		A86C207A278E7B7900CF5B5C /* RNSVGClipPathManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGClipPathManager.m; sourceTree = "<group>"; };
+		A86C207B278E7B7A00CF5B5C /* RNSVGSvgViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGSvgViewManager.m; sourceTree = "<group>"; };
+		A86C207C278E7B7A00CF5B5C /* RNSVGRadialGradientManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGRadialGradientManager.h; sourceTree = "<group>"; };
+		A86C207D278E7B7A00CF5B5C /* RNSVGRectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGRectManager.h; sourceTree = "<group>"; };
+		A86C207E278E7B7A00CF5B5C /* RNSVGDefsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGDefsManager.m; sourceTree = "<group>"; };
+		A86C207F278E7B7A00CF5B5C /* RNSVGTextManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGTextManager.m; sourceTree = "<group>"; };
+		A86C2080278E7B7A00CF5B5C /* RNSVGUseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGUseManager.h; sourceTree = "<group>"; };
+		A86C2081278E7B7A00CF5B5C /* RNSVGRenderableManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGRenderableManager.m; sourceTree = "<group>"; };
+		A86C2082278E7B7A00CF5B5C /* RNSVGLinearGradientManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGLinearGradientManager.m; sourceTree = "<group>"; };
+		A86C2083278E7B7A00CF5B5C /* RNSVGMarkerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGMarkerManager.h; sourceTree = "<group>"; };
+		A86C2084278E7B7A00CF5B5C /* RNSVGTextPathManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGTextPathManager.m; sourceTree = "<group>"; };
+		A86C2085278E7B7A00CF5B5C /* RNSVGEllipseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGEllipseManager.h; sourceTree = "<group>"; };
+		A86C2086278E7B7A00CF5B5C /* RNSVGImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGImageManager.m; sourceTree = "<group>"; };
+		A86C2087278E7B7A00CF5B5C /* RNSVGPathManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGPathManager.h; sourceTree = "<group>"; };
+		A86C2088278E7B7A00CF5B5C /* RNSVGGroupManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGGroupManager.m; sourceTree = "<group>"; };
+		A86C2089278E7B7A00CF5B5C /* RNSVGMaskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGMaskManager.h; sourceTree = "<group>"; };
+		A86C208A278E7B7A00CF5B5C /* RNSVGForeignObjectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGForeignObjectManager.m; sourceTree = "<group>"; };
+		A86C208B278E7B7A00CF5B5C /* RNSVGCircleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGCircleManager.m; sourceTree = "<group>"; };
+		A86C208C278E7B7A00CF5B5C /* RNSVGLineManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGLineManager.m; sourceTree = "<group>"; };
+		A86C208D278E7B7A00CF5B5C /* RNSVGPatternManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGPatternManager.m; sourceTree = "<group>"; };
+		A86C208E278E7B7A00CF5B5C /* RNSVGTSpanManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGTSpanManager.m; sourceTree = "<group>"; };
+		A86C208F278E7B7A00CF5B5C /* RNSVGSymbolManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGSymbolManager.h; sourceTree = "<group>"; };
+		A86C2091278E7B7A00CF5B5C /* RNSVGRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGRect.m; sourceTree = "<group>"; };
+		A86C2092278E7B7A00CF5B5C /* RNSVGEllipse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGEllipse.h; sourceTree = "<group>"; };
+		A86C2093278E7B7A00CF5B5C /* RNSVGCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGCircle.m; sourceTree = "<group>"; };
+		A86C2094278E7B7A00CF5B5C /* RNSVGLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGLine.m; sourceTree = "<group>"; };
+		A86C2095278E7B7A00CF5B5C /* RNSVGRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGRect.h; sourceTree = "<group>"; };
+		A86C2096278E7B7A00CF5B5C /* RNSVGCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGCircle.h; sourceTree = "<group>"; };
+		A86C2097278E7B7A00CF5B5C /* RNSVGEllipse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGEllipse.m; sourceTree = "<group>"; };
+		A86C2098278E7B7A00CF5B5C /* RNSVGLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGLine.h; sourceTree = "<group>"; };
+		A86C209A278E7B7A00CF5B5C /* RCTConvert+RNSVG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCTConvert+RNSVG.m"; sourceTree = "<group>"; };
+		A86C209B278E7B7A00CF5B5C /* RNSVGLength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGLength.h; sourceTree = "<group>"; };
+		A86C209C278E7B7A00CF5B5C /* RNSVGUnits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGUnits.h; sourceTree = "<group>"; };
+		A86C209D278E7B7A00CF5B5C /* RNSVGPathMeasure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGPathMeasure.m; sourceTree = "<group>"; };
+		A86C209E278E7B7A00CF5B5C /* RNSVGCGFCRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGCGFCRule.h; sourceTree = "<group>"; };
+		A86C209F278E7B7A00CF5B5C /* RNSVGViewBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGViewBox.h; sourceTree = "<group>"; };
+		A86C20A0278E7B7A00CF5B5C /* RNSVGVectorEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGVectorEffect.h; sourceTree = "<group>"; };
+		A86C20A1278E7B7A00CF5B5C /* RNSVGBezierElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGBezierElement.m; sourceTree = "<group>"; };
+		A86C20A2278E7B7A00CF5B5C /* RNSVGPathParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGPathParser.m; sourceTree = "<group>"; };
+		A86C20A3278E7B7A00CF5B5C /* RNSVGMarkerPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGMarkerPosition.h; sourceTree = "<group>"; };
+		A86C20A4278E7B7A00CF5B5C /* RCTConvert+RNSVG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RCTConvert+RNSVG.h"; sourceTree = "<group>"; };
+		A86C20A5278E7B7A00CF5B5C /* RNSVGVBMOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGVBMOS.h; sourceTree = "<group>"; };
+		A86C20A6278E7B7A00CF5B5C /* RNSVGLength.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGLength.m; sourceTree = "<group>"; };
+		A86C20A7278E7B7A00CF5B5C /* RNSVGPathParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGPathParser.h; sourceTree = "<group>"; };
+		A86C20A8278E7B7A00CF5B5C /* RNSVGBezierElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGBezierElement.h; sourceTree = "<group>"; };
+		A86C20A9278E7B7A00CF5B5C /* RNSVGViewBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGViewBox.m; sourceTree = "<group>"; };
+		A86C20AA278E7B7A00CF5B5C /* RNSVGPathMeasure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGPathMeasure.h; sourceTree = "<group>"; };
+		A86C20AB278E7B7A00CF5B5C /* RNSVGMarkerPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGMarkerPosition.m; sourceTree = "<group>"; };
+		A86C20AC278E7B7A00CF5B5C /* RNSVGNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGNode.h; sourceTree = "<group>"; };
+		A86C20AE278E7B7A00CF5B5C /* RNSVGDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGDefs.h; sourceTree = "<group>"; };
+		A86C20AF278E7B7A00CF5B5C /* RNSVGPattern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGPattern.m; sourceTree = "<group>"; };
+		A86C20B0278E7B7A00CF5B5C /* RNSVGUse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGUse.h; sourceTree = "<group>"; };
+		A86C20B1278E7B7A00CF5B5C /* RNSVGMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGMask.h; sourceTree = "<group>"; };
+		A86C20B2278E7B7A00CF5B5C /* RNSVGSvgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGSvgView.h; sourceTree = "<group>"; };
+		A86C20B3278E7B7A00CF5B5C /* RNSVGPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGPath.h; sourceTree = "<group>"; };
+		A86C20B4278E7B7A00CF5B5C /* RNSVGImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGImage.h; sourceTree = "<group>"; };
+		A86C20B5278E7B7A00CF5B5C /* RNSVGSymbol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGSymbol.m; sourceTree = "<group>"; };
+		A86C20B6278E7B7A00CF5B5C /* RNSVGForeignObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGForeignObject.m; sourceTree = "<group>"; };
+		A86C20B7278E7B7A00CF5B5C /* RNSVGRadialGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGRadialGradient.m; sourceTree = "<group>"; };
+		A86C20B8278E7B7A00CF5B5C /* RNSVGClipPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGClipPath.m; sourceTree = "<group>"; };
+		A86C20B9278E7B7A00CF5B5C /* RNSVGGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGGroup.h; sourceTree = "<group>"; };
+		A86C20BA278E7B7A00CF5B5C /* RNSVGMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGMarker.m; sourceTree = "<group>"; };
+		A86C20BB278E7B7A00CF5B5C /* RNSVGLinearGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGLinearGradient.m; sourceTree = "<group>"; };
+		A86C20BC278E7B7A00CF5B5C /* RNSVGSvgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGSvgView.m; sourceTree = "<group>"; };
+		A86C20BD278E7B7A00CF5B5C /* RNSVGMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGMask.m; sourceTree = "<group>"; };
+		A86C20BE278E7B7A00CF5B5C /* RNSVGUse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGUse.m; sourceTree = "<group>"; };
+		A86C20BF278E7B7A00CF5B5C /* RNSVGPattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGPattern.h; sourceTree = "<group>"; };
+		A86C20C0278E7B7A00CF5B5C /* RNSVGDefs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGDefs.m; sourceTree = "<group>"; };
+		A86C20C1278E7B7A00CF5B5C /* RNSVGRadialGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGRadialGradient.h; sourceTree = "<group>"; };
+		A86C20C2278E7B7A00CF5B5C /* RNSVGSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGSymbol.h; sourceTree = "<group>"; };
+		A86C20C3278E7B7A00CF5B5C /* RNSVGForeignObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGForeignObject.h; sourceTree = "<group>"; };
+		A86C20C4278E7B7A00CF5B5C /* RNSVGImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGImage.m; sourceTree = "<group>"; };
+		A86C20C5278E7B7A00CF5B5C /* RNSVGPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGPath.m; sourceTree = "<group>"; };
+		A86C20C6278E7B7A00CF5B5C /* RNSVGMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGMarker.h; sourceTree = "<group>"; };
+		A86C20C7278E7B7A00CF5B5C /* RNSVGGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGGroup.m; sourceTree = "<group>"; };
+		A86C20C8278E7B7A00CF5B5C /* RNSVGClipPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGClipPath.h; sourceTree = "<group>"; };
+		A86C20C9278E7B7A00CF5B5C /* RNSVGLinearGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGLinearGradient.h; sourceTree = "<group>"; };
+		A86C20CA278E7B7A00CF5B5C /* RNSVGRenderable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGRenderable.m; sourceTree = "<group>"; };
+		A86C20CC278E7B7A00CF5B5C /* RNSVGTextPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGTextPath.m; sourceTree = "<group>"; };
+		A86C20CD278E7B7A00CF5B5C /* RNSVGPropHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGPropHelper.m; sourceTree = "<group>"; };
+		A86C20CF278E7B7A00CF5B5C /* RNSVGText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGText.h; sourceTree = "<group>"; };
+		A86C20D0278E7B7A00CF5B5C /* RNSVGTextProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGTextProperties.m; sourceTree = "<group>"; };
+		A86C20D1278E7B7A00CF5B5C /* RNSVGFontData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGFontData.m; sourceTree = "<group>"; };
+		A86C20D2278E7B7A00CF5B5C /* RNSVGTSpan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGTSpan.h; sourceTree = "<group>"; };
+		A86C20D3278E7B7A00CF5B5C /* RNSVGGlyphContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGGlyphContext.h; sourceTree = "<group>"; };
+		A86C20D4278E7B7A00CF5B5C /* RNSVGPropHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGPropHelper.h; sourceTree = "<group>"; };
+		A86C20D5278E7B7A00CF5B5C /* RNSVGTextPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGTextPath.h; sourceTree = "<group>"; };
+		A86C20D6278E7B7A00CF5B5C /* RNSVGTextProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGTextProperties.h; sourceTree = "<group>"; };
+		A86C20D7278E7B7A00CF5B5C /* RNSVGText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGText.m; sourceTree = "<group>"; };
+		A86C20D8278E7B7A00CF5B5C /* RNSVGTopAlignedLabel.ios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGTopAlignedLabel.ios.m; sourceTree = "<group>"; };
+		A86C20D9278E7B7A00CF5B5C /* RNSVGTSpan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGTSpan.m; sourceTree = "<group>"; };
+		A86C20DA278E7B7A00CF5B5C /* RNSVGFontData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGFontData.h; sourceTree = "<group>"; };
+		A86C20DB278E7B7A00CF5B5C /* RNSVGTopAlignedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGTopAlignedLabel.h; sourceTree = "<group>"; };
+		A86C20DC278E7B7A00CF5B5C /* RNSVGGlyphContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGGlyphContext.m; sourceTree = "<group>"; };
+		A86C20DE278E7B7A00CF5B5C /* RNSVGNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSVGNode.m; sourceTree = "<group>"; };
+		A86C20DF278E7B7A00CF5B5C /* RNSVGContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSVGContainer.h; sourceTree = "<group>"; };
+		A86C2122278E7BE200CF5B5C /* Mmkv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mmkv.h; sourceTree = "<group>"; };
+		A86C2123278E7BE200CF5B5C /* JSIUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSIUtils.h; sourceTree = "<group>"; };
+		A86C2124278E7BE200CF5B5C /* Mmkv.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Mmkv.mm; sourceTree = "<group>"; };
+		A86C2125278E7BE200CF5B5C /* MmkvHostObject.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MmkvHostObject.mm; sourceTree = "<group>"; };
+		A86C2126278E7BE200CF5B5C /* MmkvHostObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MmkvHostObject.h; sourceTree = "<group>"; };
+		A86C2127278E7BE200CF5B5C /* JSIUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JSIUtils.mm; sourceTree = "<group>"; };
 		A86F825086DEDDD6CE114649 /* Pods-SafeMobile-RN-Example-SafeMobile-RN-ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeMobile-RN-Example-SafeMobile-RN-ExampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-SafeMobile-RN-Example-SafeMobile-RN-ExampleUITests/Pods-SafeMobile-RN-Example-SafeMobile-RN-ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		A8AEF6F327868C8700621031 /* FBReactNativeSpec.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBReactNativeSpec.framework; path = universal/FBReactNativeSpec.framework; sourceTree = "<group>"; };
-		A8AEF6F427868C8700621031 /* jsireact.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = jsireact.framework; path = universal/jsireact.framework; sourceTree = "<group>"; };
-		A8AEF6F527868C8700621031 /* yoga.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = yoga.framework; path = universal/yoga.framework; sourceTree = "<group>"; };
-		A8AEF6F627868C8700621031 /* RCTVibration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RCTVibration.framework; path = universal/RCTVibration.framework; sourceTree = "<group>"; };
-		A8AEF6F727868C8700621031 /* RCTSettings.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RCTSettings.framework; path = universal/RCTSettings.framework; sourceTree = "<group>"; };
-		A8AEF6F827868C8700621031 /* CoreModules.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreModules.framework; path = universal/CoreModules.framework; sourceTree = "<group>"; };
-		A8AEF6F927868C8700621031 /* RNScreens.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RNScreens.framework; path = universal/RNScreens.framework; sourceTree = "<group>"; };
-		A8AEF6FA27868C8700621031 /* React.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = React.framework; path = universal/React.framework; sourceTree = "<group>"; };
-		A8AEF6FB27868C8700621031 /* RCTAnimation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RCTAnimation.framework; path = universal/RCTAnimation.framework; sourceTree = "<group>"; };
-		A8AEF6FC27868C8700621031 /* RCTNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RCTNetwork.framework; path = universal/RCTNetwork.framework; sourceTree = "<group>"; };
-		A8AEF6FD27868C8700621031 /* RNGestureHandler.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RNGestureHandler.framework; path = universal/RNGestureHandler.framework; sourceTree = "<group>"; };
-		A8AEF6FE27868C8700621031 /* RCTImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RCTImage.framework; path = universal/RCTImage.framework; sourceTree = "<group>"; };
-		A8AEF6FF27868C8700621031 /* RCTBlob.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RCTBlob.framework; path = universal/RCTBlob.framework; sourceTree = "<group>"; };
-		A8AEF70027868C8700621031 /* glog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = glog.framework; path = universal/glog.framework; sourceTree = "<group>"; };
-		A8AEF70127868C8700621031 /* RCTTypeSafety.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RCTTypeSafety.framework; path = universal/RCTTypeSafety.framework; sourceTree = "<group>"; };
-		A8AEF70227868C8700621031 /* fmt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = fmt.framework; path = universal/fmt.framework; sourceTree = "<group>"; };
-		A8AEF70327868C8700621031 /* DoubleConversion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DoubleConversion.framework; path = universal/DoubleConversion.framework; sourceTree = "<group>"; };
-		A8AEF70427868C8700621031 /* jsinspector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = jsinspector.framework; path = universal/jsinspector.framework; sourceTree = "<group>"; };
-		A8AEF70527868C8700621031 /* logger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = logger.framework; path = universal/logger.framework; sourceTree = "<group>"; };
-		A8AEF70627868C8800621031 /* RNReanimated.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RNReanimated.framework; path = universal/RNReanimated.framework; sourceTree = "<group>"; };
-		A8AEF70727868C8800621031 /* RCTText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RCTText.framework; path = universal/RCTText.framework; sourceTree = "<group>"; };
-		A8AEF70827868C8800621031 /* reactperflogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = reactperflogger.framework; path = universal/reactperflogger.framework; sourceTree = "<group>"; };
-		A8AEF70927868C8800621031 /* folly.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = folly.framework; path = universal/folly.framework; sourceTree = "<group>"; };
-		A8AEF70A27868C8800621031 /* TestFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TestFramework.framework; path = universal/TestFramework.framework; sourceTree = "<group>"; };
-		A8AEF70B27868C8800621031 /* RCTLinking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RCTLinking.framework; path = universal/RCTLinking.framework; sourceTree = "<group>"; };
-		A8AEF70D27868C8800621031 /* cxxreact.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = cxxreact.framework; path = universal/cxxreact.framework; sourceTree = "<group>"; };
-		A8AEF70E27868C8800621031 /* jsi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = jsi.framework; path = universal/jsi.framework; sourceTree = "<group>"; };
-		A8AEF70F27868C8800621031 /* ReactCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactCommon.framework; path = universal/ReactCommon.framework; sourceTree = "<group>"; };
 		A8D72E4B2782A38F001756EE /* SafeMobile-RN-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SafeMobile-RN-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8D72E4E2782A38F001756EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A8D72E4F2782A38F001756EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -189,6 +400,44 @@
 		A8D72E702782A391001756EE /* SafeMobile-RN-ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SafeMobile-RN-ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8D72E742782A391001756EE /* SafeMobile_RN_ExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafeMobile_RN_ExampleUITests.m; sourceTree = "<group>"; };
 		A8D72E762782A391001756EE /* SafeMobile_RN_ExampleUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafeMobile_RN_ExampleUITestsLaunchTests.m; sourceTree = "<group>"; };
+		A8FD6875278D8DF700D4B726 /* RNCClipboard.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RNCClipboard.framework; path = universal/RNCClipboard.framework; sourceTree = "<group>"; };
+		A8FD6876278D8DF700D4B726 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = universal/SDWebImage.framework; sourceTree = "<group>"; };
+		A8FD6877278D8DF700D4B726 /* logger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = logger.framework; path = universal/logger.framework; sourceTree = "<group>"; };
+		A8FD6878278D8DF700D4B726 /* CoreModules.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreModules.framework; path = universal/CoreModules.framework; sourceTree = "<group>"; };
+		A8FD6879278D8DF700D4B726 /* react_native_pager_view.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = react_native_pager_view.framework; path = universal/react_native_pager_view.framework; sourceTree = "<group>"; };
+		A8FD687A278D8DF700D4B726 /* glog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = glog.framework; path = universal/glog.framework; sourceTree = "<group>"; };
+		A8FD687B278D8DF700D4B726 /* libwebp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libwebp.framework; path = universal/libwebp.framework; sourceTree = "<group>"; };
+		A8FD687C278D8DF700D4B726 /* cxxreact.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = cxxreact.framework; path = universal/cxxreact.framework; sourceTree = "<group>"; };
+		A8FD687D278D8DF700D4B726 /* folly.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = folly.framework; path = universal/folly.framework; sourceTree = "<group>"; };
+		A8FD687E278D8DF700D4B726 /* RNFastImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RNFastImage.framework; path = universal/RNFastImage.framework; sourceTree = "<group>"; };
+		A8FD687F278D8DF700D4B726 /* RNReanimated.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RNReanimated.framework; path = universal/RNReanimated.framework; sourceTree = "<group>"; };
+		A8FD6880278D8DF700D4B726 /* ReactCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactCommon.framework; path = universal/ReactCommon.framework; sourceTree = "<group>"; };
+		A8FD6881278D8DF700D4B726 /* SDWebImageWebPCoder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImageWebPCoder.framework; path = universal/SDWebImageWebPCoder.framework; sourceTree = "<group>"; };
+		A8FD6882278D8DF700D4B726 /* RCTSettings.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RCTSettings.framework; path = universal/RCTSettings.framework; sourceTree = "<group>"; };
+		A8FD6883278D8DF700D4B726 /* RCTImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RCTImage.framework; path = universal/RCTImage.framework; sourceTree = "<group>"; };
+		A8FD6884278D8DF700D4B726 /* React.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = React.framework; path = universal/React.framework; sourceTree = "<group>"; };
+		A8FD6885278D8DF700D4B726 /* react_native_safe_area_context.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = react_native_safe_area_context.framework; path = universal/react_native_safe_area_context.framework; sourceTree = "<group>"; };
+		A8FD6886278D8DF800D4B726 /* yoga.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = yoga.framework; path = universal/yoga.framework; sourceTree = "<group>"; };
+		A8FD6887278D8DF800D4B726 /* RCTTypeSafety.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RCTTypeSafety.framework; path = universal/RCTTypeSafety.framework; sourceTree = "<group>"; };
+		A8FD6888278D8DF800D4B726 /* RCTBlob.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RCTBlob.framework; path = universal/RCTBlob.framework; sourceTree = "<group>"; };
+		A8FD6889278D8DF800D4B726 /* RCTAnimation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RCTAnimation.framework; path = universal/RCTAnimation.framework; sourceTree = "<group>"; };
+		A8FD688A278D8DF800D4B726 /* fmt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = fmt.framework; path = universal/fmt.framework; sourceTree = "<group>"; };
+		A8FD688B278D8DF800D4B726 /* jsireact.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = jsireact.framework; path = universal/jsireact.framework; sourceTree = "<group>"; };
+		A8FD688D278D8DF800D4B726 /* jsinspector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = jsinspector.framework; path = universal/jsinspector.framework; sourceTree = "<group>"; };
+		A8FD688E278D8DF800D4B726 /* RCTLinking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RCTLinking.framework; path = universal/RCTLinking.framework; sourceTree = "<group>"; };
+		A8FD688F278D8DF800D4B726 /* RCTVibration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RCTVibration.framework; path = universal/RCTVibration.framework; sourceTree = "<group>"; };
+		A8FD6890278D8DF800D4B726 /* RNDateTimePicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RNDateTimePicker.framework; path = universal/RNDateTimePicker.framework; sourceTree = "<group>"; };
+		A8FD6891278D8DF800D4B726 /* reactperflogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = reactperflogger.framework; path = universal/reactperflogger.framework; sourceTree = "<group>"; };
+		A8FD6892278D8DF800D4B726 /* RNDeviceInfo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RNDeviceInfo.framework; path = universal/RNDeviceInfo.framework; sourceTree = "<group>"; };
+		A8FD6893278D8DF800D4B726 /* RNScreens.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RNScreens.framework; path = universal/RNScreens.framework; sourceTree = "<group>"; };
+		A8FD6894278D8DF800D4B726 /* RNShare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RNShare.framework; path = universal/RNShare.framework; sourceTree = "<group>"; };
+		A8FD6895278D8DF800D4B726 /* RNGestureHandler.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RNGestureHandler.framework; path = universal/RNGestureHandler.framework; sourceTree = "<group>"; };
+		A8FD6897278D8DF800D4B726 /* RCTNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RCTNetwork.framework; path = universal/RCTNetwork.framework; sourceTree = "<group>"; };
+		A8FD6898278D8DF800D4B726 /* FBReactNativeSpec.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBReactNativeSpec.framework; path = universal/FBReactNativeSpec.framework; sourceTree = "<group>"; };
+		A8FD6899278D8DF800D4B726 /* RCTText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RCTText.framework; path = universal/RCTText.framework; sourceTree = "<group>"; };
+		A8FD689A278D8DF800D4B726 /* DoubleConversion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DoubleConversion.framework; path = universal/DoubleConversion.framework; sourceTree = "<group>"; };
+		A8FD689B278D8DF800D4B726 /* jsi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = jsi.framework; path = universal/jsi.framework; sourceTree = "<group>"; };
+		A8FD68F3278D91F400D4B726 /* TestFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TestFramework.framework; path = universal/TestFramework.framework; sourceTree = "<group>"; };
 		C33D4202FFD3595FBBD6D611 /* Pods-SafeMobile-RN-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeMobile-RN-Example.release.xcconfig"; path = "Target Support Files/Pods-SafeMobile-RN-Example/Pods-SafeMobile-RN-Example.release.xcconfig"; sourceTree = "<group>"; };
 		C5F76E0A0269A551C9B98465 /* Pods_SafeMobile_RN_Example_SafeMobile_RN_ExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SafeMobile_RN_Example_SafeMobile_RN_ExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -198,35 +447,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8AEF71327868C8800621031 /* RCTVibration.framework in Frameworks */,
-				A8AEF72627868C8800621031 /* folly.framework in Frameworks */,
-				A8AEF72427868C8800621031 /* RCTText.framework in Frameworks */,
-				A8AEF71D27868C8800621031 /* glog.framework in Frameworks */,
-				A8AEF72B27868C8800621031 /* jsi.framework in Frameworks */,
-				A8AEF72527868C8800621031 /* reactperflogger.framework in Frameworks */,
-				A8AEF71027868C8800621031 /* FBReactNativeSpec.framework in Frameworks */,
-				A8AEF71627868C8800621031 /* RNScreens.framework in Frameworks */,
-				A8AEF72227868C8800621031 /* logger.framework in Frameworks */,
-				A8AEF71F27868C8800621031 /* fmt.framework in Frameworks */,
-				A8AEF71527868C8800621031 /* CoreModules.framework in Frameworks */,
-				A8AEF71727868C8800621031 /* React.framework in Frameworks */,
-				A8AEF71827868C8800621031 /* RCTAnimation.framework in Frameworks */,
-				A8AEF71127868C8800621031 /* jsireact.framework in Frameworks */,
-				A8AEF72727868C8800621031 /* TestFramework.framework in Frameworks */,
-				A8AEF71B27868C8800621031 /* RCTImage.framework in Frameworks */,
-				A8AEF72127868C8800621031 /* jsinspector.framework in Frameworks */,
-				A8AEF71A27868C8800621031 /* RNGestureHandler.framework in Frameworks */,
-				A8AEF72027868C8800621031 /* DoubleConversion.framework in Frameworks */,
-				A8AEF71E27868C8800621031 /* RCTTypeSafety.framework in Frameworks */,
-				A8AEF72A27868C8800621031 /* cxxreact.framework in Frameworks */,
-				A8AEF71227868C8800621031 /* yoga.framework in Frameworks */,
-				A8AEF71927868C8800621031 /* RCTNetwork.framework in Frameworks */,
-				A8AEF71C27868C8800621031 /* RCTBlob.framework in Frameworks */,
-				A8AEF72327868C8800621031 /* RNReanimated.framework in Frameworks */,
+				A8FD68A7278D8DF900D4B726 /* ReactCommon.framework in Frameworks */,
+				A8FD68B6278D8DF900D4B726 /* RCTVibration.framework in Frameworks */,
+				A8FD68BF278D8DF900D4B726 /* FBReactNativeSpec.framework in Frameworks */,
+				A8FD68BA278D8DF900D4B726 /* RNScreens.framework in Frameworks */,
+				A8FD68A6278D8DF900D4B726 /* RNReanimated.framework in Frameworks */,
+				A8FD68A1278D8DF900D4B726 /* glog.framework in Frameworks */,
+				A8FD689E278D8DF900D4B726 /* logger.framework in Frameworks */,
+				A8FD68B1278D8DF900D4B726 /* fmt.framework in Frameworks */,
+				A8FD68C1278D8DF900D4B726 /* DoubleConversion.framework in Frameworks */,
+				A8FD68F4278D91F400D4B726 /* TestFramework.framework in Frameworks */,
+				A8FD68AF278D8DF900D4B726 /* RCTBlob.framework in Frameworks */,
+				A8FD68AB278D8DF900D4B726 /* React.framework in Frameworks */,
+				A8FD68A2278D8DF900D4B726 /* libwebp.framework in Frameworks */,
+				A8FD68B8278D8DF900D4B726 /* reactperflogger.framework in Frameworks */,
+				A8FD68B0278D8DF900D4B726 /* RCTAnimation.framework in Frameworks */,
+				A8FD68A9278D8DF900D4B726 /* RCTSettings.framework in Frameworks */,
+				A8FD68AC278D8DF900D4B726 /* react_native_safe_area_context.framework in Frameworks */,
 				FCDD592436031D017E3AC459 /* Pods_SafeMobile_RN_Example.framework in Frameworks */,
-				A8AEF71427868C8800621031 /* RCTSettings.framework in Frameworks */,
-				A8AEF72827868C8800621031 /* RCTLinking.framework in Frameworks */,
-				A8AEF72C27868C8800621031 /* ReactCommon.framework in Frameworks */,
+				A8FD68A0278D8DF900D4B726 /* react_native_pager_view.framework in Frameworks */,
+				A8FD68AE278D8DF900D4B726 /* RCTTypeSafety.framework in Frameworks */,
+				A8FD689D278D8DF900D4B726 /* SDWebImage.framework in Frameworks */,
+				A8FD68AD278D8DF900D4B726 /* yoga.framework in Frameworks */,
+				A8FD68A3278D8DF900D4B726 /* cxxreact.framework in Frameworks */,
+				A8FD68AA278D8DF900D4B726 /* RCTImage.framework in Frameworks */,
+				A8FD68A5278D8DF900D4B726 /* RNFastImage.framework in Frameworks */,
+				A8FD68BC278D8DF900D4B726 /* RNGestureHandler.framework in Frameworks */,
+				A8FD68B5278D8DF900D4B726 /* RCTLinking.framework in Frameworks */,
+				A8FD68B9278D8DF900D4B726 /* RNDeviceInfo.framework in Frameworks */,
+				A8FD68B2278D8DF900D4B726 /* jsireact.framework in Frameworks */,
+				A8FD68C0278D8DF900D4B726 /* RCTText.framework in Frameworks */,
+				A8FD68C2278D8DF900D4B726 /* jsi.framework in Frameworks */,
+				A8FD68B4278D8DF900D4B726 /* jsinspector.framework in Frameworks */,
+				A8FD68A4278D8DF900D4B726 /* folly.framework in Frameworks */,
+				A8FD689C278D8DF800D4B726 /* RNCClipboard.framework in Frameworks */,
+				A8FD68A8278D8DF900D4B726 /* SDWebImageWebPCoder.framework in Frameworks */,
+				A8FD68B7278D8DF900D4B726 /* RNDateTimePicker.framework in Frameworks */,
+				A8FD68BB278D8DF900D4B726 /* RNShare.framework in Frameworks */,
+				A8FD689F278D8DF900D4B726 /* CoreModules.framework in Frameworks */,
+				A8FD68BE278D8DF900D4B726 /* RCTNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,37 +531,252 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		A86C2052278E7B7900CF5B5C /* svg */ = {
+			isa = PBXGroup;
+			children = (
+				A86C2053278E7B7900CF5B5C /* Brushes */,
+				A86C205F278E7B7900CF5B5C /* RNSVGUIKit.h */,
+				A86C2060278E7B7900CF5B5C /* RNSVGRenderable.h */,
+				A86C2061278E7B7900CF5B5C /* ViewManagers */,
+				A86C2090278E7B7A00CF5B5C /* Shapes */,
+				A86C2099278E7B7A00CF5B5C /* Utils */,
+				A86C20AC278E7B7A00CF5B5C /* RNSVGNode.h */,
+				A86C20AD278E7B7A00CF5B5C /* Elements */,
+				A86C20CA278E7B7A00CF5B5C /* RNSVGRenderable.m */,
+				A86C20CB278E7B7A00CF5B5C /* Text */,
+				A86C20DE278E7B7A00CF5B5C /* RNSVGNode.m */,
+				A86C20DF278E7B7A00CF5B5C /* RNSVGContainer.h */,
+			);
+			name = svg;
+			path = "third-libs/svg";
+			sourceTree = "<group>";
+		};
+		A86C2053278E7B7900CF5B5C /* Brushes */ = {
+			isa = PBXGroup;
+			children = (
+				A86C2054278E7B7900CF5B5C /* RNSVGPainter.h */,
+				A86C2055278E7B7900CF5B5C /* RNSVGSolidColorBrush.h */,
+				A86C2056278E7B7900CF5B5C /* RNSVGBrush.h */,
+				A86C2057278E7B7900CF5B5C /* RNSVGBrushType.h */,
+				A86C2058278E7B7900CF5B5C /* RNSVGPainterBrush.m */,
+				A86C2059278E7B7900CF5B5C /* RNSVGContextBrush.h */,
+				A86C205A278E7B7900CF5B5C /* RNSVGPainterBrush.h */,
+				A86C205B278E7B7900CF5B5C /* RNSVGBrush.m */,
+				A86C205C278E7B7900CF5B5C /* RNSVGPainter.m */,
+				A86C205D278E7B7900CF5B5C /* RNSVGSolidColorBrush.m */,
+				A86C205E278E7B7900CF5B5C /* RNSVGContextBrush.m */,
+			);
+			path = Brushes;
+			sourceTree = "<group>";
+		};
+		A86C2061278E7B7900CF5B5C /* ViewManagers */ = {
+			isa = PBXGroup;
+			children = (
+				A86C2062278E7B7900CF5B5C /* RNSVGRenderableManager.h */,
+				A86C2063278E7B7900CF5B5C /* RNSVGUseManager.m */,
+				A86C2064278E7B7900CF5B5C /* RNSVGTextManager.h */,
+				A86C2065278E7B7900CF5B5C /* RNSVGRectManager.m */,
+				A86C2066278E7B7900CF5B5C /* RNSVGDefsManager.h */,
+				A86C2067278E7B7900CF5B5C /* RNSVGRadialGradientManager.m */,
+				A86C2068278E7B7900CF5B5C /* RNSVGSvgViewManager.h */,
+				A86C2069278E7B7900CF5B5C /* RNSVGNodeManager.h */,
+				A86C206A278E7B7900CF5B5C /* RNSVGClipPathManager.h */,
+				A86C206B278E7B7900CF5B5C /* RNSVGEllipseManager.m */,
+				A86C206C278E7B7900CF5B5C /* RNSVGTextPathManager.h */,
+				A86C206D278E7B7900CF5B5C /* RNSVGMarkerManager.m */,
+				A86C206E278E7B7900CF5B5C /* RNSVGLinearGradientManager.h */,
+				A86C206F278E7B7900CF5B5C /* RNSVGCircleManager.h */,
+				A86C2070278E7B7900CF5B5C /* RNSVGMaskManager.m */,
+				A86C2071278E7B7900CF5B5C /* RNSVGForeignObjectManager.h */,
+				A86C2072278E7B7900CF5B5C /* RNSVGGroupManager.h */,
+				A86C2073278E7B7900CF5B5C /* RNSVGPathManager.m */,
+				A86C2074278E7B7900CF5B5C /* RNSVGImageManager.h */,
+				A86C2075278E7B7900CF5B5C /* RNSVGSymbolManager.m */,
+				A86C2076278E7B7900CF5B5C /* RNSVGTSpanManager.h */,
+				A86C2077278E7B7900CF5B5C /* RNSVGPatternManager.h */,
+				A86C2078278E7B7900CF5B5C /* RNSVGLineManager.h */,
+				A86C2079278E7B7900CF5B5C /* RNSVGNodeManager.m */,
+				A86C207A278E7B7900CF5B5C /* RNSVGClipPathManager.m */,
+				A86C207B278E7B7A00CF5B5C /* RNSVGSvgViewManager.m */,
+				A86C207C278E7B7A00CF5B5C /* RNSVGRadialGradientManager.h */,
+				A86C207D278E7B7A00CF5B5C /* RNSVGRectManager.h */,
+				A86C207E278E7B7A00CF5B5C /* RNSVGDefsManager.m */,
+				A86C207F278E7B7A00CF5B5C /* RNSVGTextManager.m */,
+				A86C2080278E7B7A00CF5B5C /* RNSVGUseManager.h */,
+				A86C2081278E7B7A00CF5B5C /* RNSVGRenderableManager.m */,
+				A86C2082278E7B7A00CF5B5C /* RNSVGLinearGradientManager.m */,
+				A86C2083278E7B7A00CF5B5C /* RNSVGMarkerManager.h */,
+				A86C2084278E7B7A00CF5B5C /* RNSVGTextPathManager.m */,
+				A86C2085278E7B7A00CF5B5C /* RNSVGEllipseManager.h */,
+				A86C2086278E7B7A00CF5B5C /* RNSVGImageManager.m */,
+				A86C2087278E7B7A00CF5B5C /* RNSVGPathManager.h */,
+				A86C2088278E7B7A00CF5B5C /* RNSVGGroupManager.m */,
+				A86C2089278E7B7A00CF5B5C /* RNSVGMaskManager.h */,
+				A86C208A278E7B7A00CF5B5C /* RNSVGForeignObjectManager.m */,
+				A86C208B278E7B7A00CF5B5C /* RNSVGCircleManager.m */,
+				A86C208C278E7B7A00CF5B5C /* RNSVGLineManager.m */,
+				A86C208D278E7B7A00CF5B5C /* RNSVGPatternManager.m */,
+				A86C208E278E7B7A00CF5B5C /* RNSVGTSpanManager.m */,
+				A86C208F278E7B7A00CF5B5C /* RNSVGSymbolManager.h */,
+			);
+			path = ViewManagers;
+			sourceTree = "<group>";
+		};
+		A86C2090278E7B7A00CF5B5C /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				A86C2091278E7B7A00CF5B5C /* RNSVGRect.m */,
+				A86C2092278E7B7A00CF5B5C /* RNSVGEllipse.h */,
+				A86C2093278E7B7A00CF5B5C /* RNSVGCircle.m */,
+				A86C2094278E7B7A00CF5B5C /* RNSVGLine.m */,
+				A86C2095278E7B7A00CF5B5C /* RNSVGRect.h */,
+				A86C2096278E7B7A00CF5B5C /* RNSVGCircle.h */,
+				A86C2097278E7B7A00CF5B5C /* RNSVGEllipse.m */,
+				A86C2098278E7B7A00CF5B5C /* RNSVGLine.h */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		A86C2099278E7B7A00CF5B5C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A86C209A278E7B7A00CF5B5C /* RCTConvert+RNSVG.m */,
+				A86C209B278E7B7A00CF5B5C /* RNSVGLength.h */,
+				A86C209C278E7B7A00CF5B5C /* RNSVGUnits.h */,
+				A86C209D278E7B7A00CF5B5C /* RNSVGPathMeasure.m */,
+				A86C209E278E7B7A00CF5B5C /* RNSVGCGFCRule.h */,
+				A86C209F278E7B7A00CF5B5C /* RNSVGViewBox.h */,
+				A86C20A0278E7B7A00CF5B5C /* RNSVGVectorEffect.h */,
+				A86C20A1278E7B7A00CF5B5C /* RNSVGBezierElement.m */,
+				A86C20A2278E7B7A00CF5B5C /* RNSVGPathParser.m */,
+				A86C20A3278E7B7A00CF5B5C /* RNSVGMarkerPosition.h */,
+				A86C20A4278E7B7A00CF5B5C /* RCTConvert+RNSVG.h */,
+				A86C20A5278E7B7A00CF5B5C /* RNSVGVBMOS.h */,
+				A86C20A6278E7B7A00CF5B5C /* RNSVGLength.m */,
+				A86C20A7278E7B7A00CF5B5C /* RNSVGPathParser.h */,
+				A86C20A8278E7B7A00CF5B5C /* RNSVGBezierElement.h */,
+				A86C20A9278E7B7A00CF5B5C /* RNSVGViewBox.m */,
+				A86C20AA278E7B7A00CF5B5C /* RNSVGPathMeasure.h */,
+				A86C20AB278E7B7A00CF5B5C /* RNSVGMarkerPosition.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A86C20AD278E7B7A00CF5B5C /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				A86C20AE278E7B7A00CF5B5C /* RNSVGDefs.h */,
+				A86C20AF278E7B7A00CF5B5C /* RNSVGPattern.m */,
+				A86C20B0278E7B7A00CF5B5C /* RNSVGUse.h */,
+				A86C20B1278E7B7A00CF5B5C /* RNSVGMask.h */,
+				A86C20B2278E7B7A00CF5B5C /* RNSVGSvgView.h */,
+				A86C20B3278E7B7A00CF5B5C /* RNSVGPath.h */,
+				A86C20B4278E7B7A00CF5B5C /* RNSVGImage.h */,
+				A86C20B5278E7B7A00CF5B5C /* RNSVGSymbol.m */,
+				A86C20B6278E7B7A00CF5B5C /* RNSVGForeignObject.m */,
+				A86C20B7278E7B7A00CF5B5C /* RNSVGRadialGradient.m */,
+				A86C20B8278E7B7A00CF5B5C /* RNSVGClipPath.m */,
+				A86C20B9278E7B7A00CF5B5C /* RNSVGGroup.h */,
+				A86C20BA278E7B7A00CF5B5C /* RNSVGMarker.m */,
+				A86C20BB278E7B7A00CF5B5C /* RNSVGLinearGradient.m */,
+				A86C20BC278E7B7A00CF5B5C /* RNSVGSvgView.m */,
+				A86C20BD278E7B7A00CF5B5C /* RNSVGMask.m */,
+				A86C20BE278E7B7A00CF5B5C /* RNSVGUse.m */,
+				A86C20BF278E7B7A00CF5B5C /* RNSVGPattern.h */,
+				A86C20C0278E7B7A00CF5B5C /* RNSVGDefs.m */,
+				A86C20C1278E7B7A00CF5B5C /* RNSVGRadialGradient.h */,
+				A86C20C2278E7B7A00CF5B5C /* RNSVGSymbol.h */,
+				A86C20C3278E7B7A00CF5B5C /* RNSVGForeignObject.h */,
+				A86C20C4278E7B7A00CF5B5C /* RNSVGImage.m */,
+				A86C20C5278E7B7A00CF5B5C /* RNSVGPath.m */,
+				A86C20C6278E7B7A00CF5B5C /* RNSVGMarker.h */,
+				A86C20C7278E7B7A00CF5B5C /* RNSVGGroup.m */,
+				A86C20C8278E7B7A00CF5B5C /* RNSVGClipPath.h */,
+				A86C20C9278E7B7A00CF5B5C /* RNSVGLinearGradient.h */,
+			);
+			path = Elements;
+			sourceTree = "<group>";
+		};
+		A86C20CB278E7B7A00CF5B5C /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				A86C20CC278E7B7A00CF5B5C /* RNSVGTextPath.m */,
+				A86C20CD278E7B7A00CF5B5C /* RNSVGPropHelper.m */,
+				A86C20CF278E7B7A00CF5B5C /* RNSVGText.h */,
+				A86C20D0278E7B7A00CF5B5C /* RNSVGTextProperties.m */,
+				A86C20D1278E7B7A00CF5B5C /* RNSVGFontData.m */,
+				A86C20D2278E7B7A00CF5B5C /* RNSVGTSpan.h */,
+				A86C20D3278E7B7A00CF5B5C /* RNSVGGlyphContext.h */,
+				A86C20D4278E7B7A00CF5B5C /* RNSVGPropHelper.h */,
+				A86C20D5278E7B7A00CF5B5C /* RNSVGTextPath.h */,
+				A86C20D6278E7B7A00CF5B5C /* RNSVGTextProperties.h */,
+				A86C20D7278E7B7A00CF5B5C /* RNSVGText.m */,
+				A86C20D8278E7B7A00CF5B5C /* RNSVGTopAlignedLabel.ios.m */,
+				A86C20D9278E7B7A00CF5B5C /* RNSVGTSpan.m */,
+				A86C20DA278E7B7A00CF5B5C /* RNSVGFontData.h */,
+				A86C20DB278E7B7A00CF5B5C /* RNSVGTopAlignedLabel.h */,
+				A86C20DC278E7B7A00CF5B5C /* RNSVGGlyphContext.m */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		A86C2121278E7BE200CF5B5C /* rnmmkv */ = {
+			isa = PBXGroup;
+			children = (
+				A86C2122278E7BE200CF5B5C /* Mmkv.h */,
+				A86C2123278E7BE200CF5B5C /* JSIUtils.h */,
+				A86C2124278E7BE200CF5B5C /* Mmkv.mm */,
+				A86C2125278E7BE200CF5B5C /* MmkvHostObject.mm */,
+				A86C2126278E7BE200CF5B5C /* MmkvHostObject.h */,
+				A86C2127278E7BE200CF5B5C /* JSIUtils.mm */,
+			);
+			name = rnmmkv;
+			path = "third-libs/rnmmkv";
+			sourceTree = "<group>";
+		};
 		A8D72E422782A38F001756EE = {
 			isa = PBXGroup;
 			children = (
-				A8AEF6F827868C8700621031 /* CoreModules.framework */,
-				A8AEF70D27868C8800621031 /* cxxreact.framework */,
-				A8AEF70327868C8700621031 /* DoubleConversion.framework */,
-				A8AEF6F327868C8700621031 /* FBReactNativeSpec.framework */,
-				A8AEF70227868C8700621031 /* fmt.framework */,
-				A8AEF70927868C8800621031 /* folly.framework */,
-				A8AEF70027868C8700621031 /* glog.framework */,
-				A8AEF70E27868C8800621031 /* jsi.framework */,
-				A8AEF70427868C8700621031 /* jsinspector.framework */,
-				A8AEF6F427868C8700621031 /* jsireact.framework */,
-				A8AEF70527868C8700621031 /* logger.framework */,
-				A8AEF6FB27868C8700621031 /* RCTAnimation.framework */,
-				A8AEF6FF27868C8700621031 /* RCTBlob.framework */,
-				A8AEF6FE27868C8700621031 /* RCTImage.framework */,
-				A8AEF70B27868C8800621031 /* RCTLinking.framework */,
-				A8AEF6FC27868C8700621031 /* RCTNetwork.framework */,
-				A8AEF6F727868C8700621031 /* RCTSettings.framework */,
-				A8AEF70727868C8800621031 /* RCTText.framework */,
-				A8AEF70127868C8700621031 /* RCTTypeSafety.framework */,
-				A8AEF6F627868C8700621031 /* RCTVibration.framework */,
-				A8AEF6FA27868C8700621031 /* React.framework */,
-				A8AEF70F27868C8800621031 /* ReactCommon.framework */,
-				A8AEF70827868C8800621031 /* reactperflogger.framework */,
-				A8AEF6FD27868C8700621031 /* RNGestureHandler.framework */,
-				A8AEF70627868C8800621031 /* RNReanimated.framework */,
-				A8AEF6F927868C8700621031 /* RNScreens.framework */,
-				A8AEF70A27868C8800621031 /* TestFramework.framework */,
-				A8AEF6F527868C8700621031 /* yoga.framework */,
+				A86C2121278E7BE200CF5B5C /* rnmmkv */,
+				A86C2052278E7B7900CF5B5C /* svg */,
+				A8FD68F3278D91F400D4B726 /* TestFramework.framework */,
+				A8FD6878278D8DF700D4B726 /* CoreModules.framework */,
+				A8FD687C278D8DF700D4B726 /* cxxreact.framework */,
+				A8FD689A278D8DF800D4B726 /* DoubleConversion.framework */,
+				A8FD6898278D8DF800D4B726 /* FBReactNativeSpec.framework */,
+				A8FD688A278D8DF800D4B726 /* fmt.framework */,
+				A8FD687D278D8DF700D4B726 /* folly.framework */,
+				A8FD687A278D8DF700D4B726 /* glog.framework */,
+				A8FD689B278D8DF800D4B726 /* jsi.framework */,
+				A8FD688D278D8DF800D4B726 /* jsinspector.framework */,
+				A8FD688B278D8DF800D4B726 /* jsireact.framework */,
+				A8FD687B278D8DF700D4B726 /* libwebp.framework */,
+				A8FD6877278D8DF700D4B726 /* logger.framework */,
+				A8FD6889278D8DF800D4B726 /* RCTAnimation.framework */,
+				A8FD6888278D8DF800D4B726 /* RCTBlob.framework */,
+				A8FD6883278D8DF700D4B726 /* RCTImage.framework */,
+				A8FD688E278D8DF800D4B726 /* RCTLinking.framework */,
+				A8FD6897278D8DF800D4B726 /* RCTNetwork.framework */,
+				A8FD6882278D8DF700D4B726 /* RCTSettings.framework */,
+				A8FD6899278D8DF800D4B726 /* RCTText.framework */,
+				A8FD6887278D8DF800D4B726 /* RCTTypeSafety.framework */,
+				A8FD688F278D8DF800D4B726 /* RCTVibration.framework */,
+				A8FD6879278D8DF700D4B726 /* react_native_pager_view.framework */,
+				A8FD6885278D8DF700D4B726 /* react_native_safe_area_context.framework */,
+				A8FD6884278D8DF700D4B726 /* React.framework */,
+				A8FD6880278D8DF700D4B726 /* ReactCommon.framework */,
+				A8FD6891278D8DF800D4B726 /* reactperflogger.framework */,
+				A8FD6875278D8DF700D4B726 /* RNCClipboard.framework */,
+				A8FD6890278D8DF800D4B726 /* RNDateTimePicker.framework */,
+				A8FD6892278D8DF800D4B726 /* RNDeviceInfo.framework */,
+				A8FD687E278D8DF700D4B726 /* RNFastImage.framework */,
+				A8FD6895278D8DF800D4B726 /* RNGestureHandler.framework */,
+				A8FD687F278D8DF700D4B726 /* RNReanimated.framework */,
+				A8FD6893278D8DF800D4B726 /* RNScreens.framework */,
+				A8FD6894278D8DF800D4B726 /* RNShare.framework */,
+				A8FD6876278D8DF700D4B726 /* SDWebImage.framework */,
+				A8FD6881278D8DF700D4B726 /* SDWebImageWebPCoder.framework */,
+				A8FD6886278D8DF800D4B726 /* yoga.framework */,
 				A8D72E4D2782A38F001756EE /* SafeMobile-RN-Example */,
 				A8D72E692782A391001756EE /* SafeMobile-RN-ExampleTests */,
 				A8D72E732782A391001756EE /* SafeMobile-RN-ExampleUITests */,
@@ -325,6 +799,8 @@
 		A8D72E4D2782A38F001756EE /* SafeMobile-RN-Example */ = {
 			isa = PBXGroup;
 			children = (
+				A86C1DA3278DB56F00CF5B5C /* assets */,
+				A86C1DA2278DB56F00CF5B5C /* main.jsbundle */,
 				A8D72E4E2782A38F001756EE /* AppDelegate.h */,
 				A8D72E4F2782A38F001756EE /* AppDelegate.m */,
 				A8D72E512782A38F001756EE /* SceneDelegate.h */,
@@ -464,9 +940,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A86C1DA5278DB56F00CF5B5C /* assets in Resources */,
 				A8D72E5E2782A391001756EE /* LaunchScreen.storyboard in Resources */,
 				A8D72E5B2782A391001756EE /* Assets.xcassets in Resources */,
 				A8D72E592782A38F001756EE /* Main.storyboard in Resources */,
+				A86C1DA4278DB56F00CF5B5C /* main.jsbundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -560,10 +1038,76 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A86C20E0278E7B7A00CF5B5C /* RNSVGPainterBrush.m in Sources */,
+				A86C2105278E7B7A00CF5B5C /* RNSVGViewBox.m in Sources */,
+				A86C2110278E7B7A00CF5B5C /* RNSVGUse.m in Sources */,
+				A86C20E8278E7B7A00CF5B5C /* RNSVGEllipseManager.m in Sources */,
+				A86C20FD278E7B7A00CF5B5C /* RNSVGCircle.m in Sources */,
+				A86C210E278E7B7A00CF5B5C /* RNSVGSvgView.m in Sources */,
+				A86C212A278E7BE200CF5B5C /* JSIUtils.mm in Sources */,
+				A86C20F6278E7B7A00CF5B5C /* RNSVGGroupManager.m in Sources */,
+				A86C20FC278E7B7A00CF5B5C /* RNSVGRect.m in Sources */,
+				A86C20E7278E7B7A00CF5B5C /* RNSVGRadialGradientManager.m in Sources */,
+				A86C210D278E7B7A00CF5B5C /* RNSVGLinearGradient.m in Sources */,
+				A86C20E1278E7B7A00CF5B5C /* RNSVGBrush.m in Sources */,
+				A86C20EE278E7B7A00CF5B5C /* RNSVGClipPathManager.m in Sources */,
+				A86C20E9278E7B7A00CF5B5C /* RNSVGMarkerManager.m in Sources */,
+				A86C2104278E7B7A00CF5B5C /* RNSVGLength.m in Sources */,
+				A86C2115278E7B7A00CF5B5C /* RNSVGRenderable.m in Sources */,
+				A86C20F2278E7B7A00CF5B5C /* RNSVGRenderableManager.m in Sources */,
+				A86C20F9278E7B7A00CF5B5C /* RNSVGLineManager.m in Sources */,
+				A86C20EB278E7B7A00CF5B5C /* RNSVGPathManager.m in Sources */,
+				A86C20E5278E7B7A00CF5B5C /* RNSVGUseManager.m in Sources */,
+				A86C20F4278E7B7A00CF5B5C /* RNSVGTextPathManager.m in Sources */,
+				A86C20E4278E7B7A00CF5B5C /* RNSVGContextBrush.m in Sources */,
+				A86C2117278E7B7A00CF5B5C /* RNSVGPropHelper.m in Sources */,
+				A86C211E278E7B7A00CF5B5C /* RNSVGGlyphContext.m in Sources */,
+				A86C20EC278E7B7A00CF5B5C /* RNSVGSymbolManager.m in Sources */,
+				A86C20F3278E7B7A00CF5B5C /* RNSVGLinearGradientManager.m in Sources */,
+				A86C2119278E7B7A00CF5B5C /* RNSVGTextProperties.m in Sources */,
+				A86C211D278E7B7A00CF5B5C /* RNSVGTSpan.m in Sources */,
+				A86C211A278E7B7A00CF5B5C /* RNSVGFontData.m in Sources */,
+				A86C20EF278E7B7A00CF5B5C /* RNSVGSvgViewManager.m in Sources */,
+				A86C211B278E7B7A00CF5B5C /* RNSVGText.m in Sources */,
+				A86C210F278E7B7A00CF5B5C /* RNSVGMask.m in Sources */,
+				A86C2102278E7B7A00CF5B5C /* RNSVGBezierElement.m in Sources */,
+				A86C20F1278E7B7A00CF5B5C /* RNSVGTextManager.m in Sources */,
+				A86C20FE278E7B7A00CF5B5C /* RNSVGLine.m in Sources */,
 				A8D72E562782A38F001756EE /* ViewController.m in Sources */,
+				A86C20EA278E7B7A00CF5B5C /* RNSVGMaskManager.m in Sources */,
+				A86C20FA278E7B7A00CF5B5C /* RNSVGPatternManager.m in Sources */,
+				A86C210A278E7B7A00CF5B5C /* RNSVGRadialGradient.m in Sources */,
+				A86C2114278E7B7A00CF5B5C /* RNSVGGroup.m in Sources */,
+				A86C2116278E7B7A00CF5B5C /* RNSVGTextPath.m in Sources */,
 				A8D72E502782A38F001756EE /* AppDelegate.m in Sources */,
+				A86C2112278E7B7A00CF5B5C /* RNSVGImage.m in Sources */,
+				A86C20F5278E7B7A00CF5B5C /* RNSVGImageManager.m in Sources */,
 				A8D72E612782A391001756EE /* main.m in Sources */,
+				A86C20E2278E7B7A00CF5B5C /* RNSVGPainter.m in Sources */,
+				A86C210C278E7B7A00CF5B5C /* RNSVGMarker.m in Sources */,
+				A86C20FF278E7B7A00CF5B5C /* RNSVGEllipse.m in Sources */,
+				A86C20E6278E7B7A00CF5B5C /* RNSVGRectManager.m in Sources */,
 				A8D72E532782A38F001756EE /* SceneDelegate.m in Sources */,
+				A86C2120278E7B7A00CF5B5C /* RNSVGNode.m in Sources */,
+				A86C2108278E7B7A00CF5B5C /* RNSVGSymbol.m in Sources */,
+				A86C20F0278E7B7A00CF5B5C /* RNSVGDefsManager.m in Sources */,
+				A86C2100278E7B7A00CF5B5C /* RCTConvert+RNSVG.m in Sources */,
+				A86C2113278E7B7A00CF5B5C /* RNSVGPath.m in Sources */,
+				A86C20ED278E7B7A00CF5B5C /* RNSVGNodeManager.m in Sources */,
+				A86C211C278E7B7A00CF5B5C /* RNSVGTopAlignedLabel.ios.m in Sources */,
+				A86C20F8278E7B7A00CF5B5C /* RNSVGCircleManager.m in Sources */,
+				A86C2106278E7B7A00CF5B5C /* RNSVGMarkerPosition.m in Sources */,
+				A86C2101278E7B7A00CF5B5C /* RNSVGPathMeasure.m in Sources */,
+				A86C2107278E7B7A00CF5B5C /* RNSVGPattern.m in Sources */,
+				A86C20F7278E7B7A00CF5B5C /* RNSVGForeignObjectManager.m in Sources */,
+				A86C2129278E7BE200CF5B5C /* MmkvHostObject.mm in Sources */,
+				A86C2111278E7B7A00CF5B5C /* RNSVGDefs.m in Sources */,
+				A86C2128278E7BE200CF5B5C /* Mmkv.mm in Sources */,
+				A86C20E3278E7B7A00CF5B5C /* RNSVGSolidColorBrush.m in Sources */,
+				A86C2103278E7B7A00CF5B5C /* RNSVGPathParser.m in Sources */,
+				A86C2109278E7B7A00CF5B5C /* RNSVGForeignObject.m in Sources */,
+				A86C20FB278E7B7A00CF5B5C /* RNSVGTSpanManager.m in Sources */,
+				A86C210B278E7B7A00CF5B5C /* RNSVGClipPath.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -766,7 +1310,7 @@
 				MARKETING_VERSION = 1.0;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cyradar.SafeMobile-RN-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cyradar.SafeMobile-RN-Example22";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -806,7 +1350,7 @@
 				MARKETING_VERSION = 1.0;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cyradar.SafeMobile-RN-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cyradar.SafeMobile-RN-Example22";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
